@@ -1,0 +1,20 @@
+{
+    "Loup": {
+        "Nom" : "Loup sauvage",
+        "Description": "Un loup sauvage assoiffé de sang et de chair fraiche",
+        "DescriptionMort" : "Après avoir effectué un dernier cris strident, le loup sombra dans le sommeil éternel",
+        "DescriptionAttaque" : "Le Loup fonce sur vous et vous mords de toute ses forces" ,
+        "Image": "https://cdn.discordapp.com/attachments/723538729012297834/724774265269911622/fantasyart-1592870026825-1545.jpg",
+        "ImageAttaque" : "https://cdn.discordapp.com/attachments/726571315418628133/726839837751115866/5dc5ba1b8cd7bd04a02c9a16cf87791c.jpg",
+        "Hp": 20,
+        "HpMax": 15,
+        "Mana": 3,
+        "ManaMax": 3,
+        "Vitesse": 10,
+        "CapaciteCombat": 2,
+        "CapaciteTir": 8,
+        "Protection": 4,
+        "ProtectionMagique": 9,
+        "Degat": 15
+    }
+}

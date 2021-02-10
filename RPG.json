@@ -1,0 +1,101 @@
+{
+    "<@!562233619507314708>": {
+        "Nom": "Zelgius",
+        "imageProfil": "https://cdn.discordapp.com/attachments/726571315418628133/749340941034192946/Zelgius_FE10_Artwork.png",
+        "Description": "**Caractère** : Zelgius est quelqu'un de réfléchis, méfiant et froid, il n'en fut pas toujours ainsi mais son destin lui a fait prendre une autre tournure. Il a tiré un trait sur les relations et ne fait confiance à personne, toujours à réfléchir afin d'envisager tous les cas de figures n'aimant guère les surprises. \n\n\n**Histoire** : \nZelgius, de son ancien nom Celes, était le fils d'une ancienne famille de noble, dont il ne reste maintenant que des ruines. C’est à l’âge de ses 10 ans qu’il devint orphelin après que sa famille se fasse éradiquer par des Vampire. \nAprès ce désastre il vagabonda de ville en ville pendant 1 années en mendiant afin de survivre de son mieux avant de s'isoler dans la forêt jusqu'à ses 20 ans où il s'y entraina jour et nuit à l'art du combat.\n\nIl garda une haine profond envers les vampires mais il changea d’avis après avoir été sauvé par une jeune vampire. Il eut à peine le temps de la remercier qu’elle disparu sans un mot.\nAprès cette événement il prit de long mois à réfléchir sur la nature des relations entre les races et il décida de s'engager dans l'armée afin de mettre sa force au service des plus démunis",
+        "Race": "Humain",
+        "Classe": "Nan",
+        "Hp": 15,
+        "HpMax": 15,
+        "Mana": 5,
+        "ManaMax": 5,
+        "Vitesse": 5,
+        "CapaciteCombat": 2,
+        "CapaciteTir": 8,
+        "Protection": 9,
+        "ProtectionMagique": 9,
+        "luck": "",
+        "Arme": {
+            "Slot1": {
+                "Nom": "Épée de fer",
+                "Degat": 2,
+                "Pénétration": 0,
+                "Critique": 2,
+                "DegatCritique": 3,
+                "Effet Spécial": "Na",
+                "Prix": "10 pièces de bronze"
+            },
+            "Slot2": {
+                "Nom": "Épée Acier",
+                "Degat": 2,
+                "Pénétration": 1,
+                "Critique": 5,
+                "DegatCritique": 3,
+                "Effet Spécial": "Na",
+                "Prix": "50 pièces de bronze"
+            }
+        },
+        "Armure": {
+            "Nom": "Na"
+        },
+        "Skill": {},
+        "Magie": {},
+        "Inventaire": {}
+    },
+    "<@!251821125124751371>": {
+        "Nom": "BlackKnight",
+        "imageProfil": "https://media.discordapp.net/attachments/726571315418628133/749583404571557918/Caballero_Negro.png?width=543&height=658",
+        "Description": "Le chevalier noir",
+        "Race": "Humain",
+        "Classe": "Nan",
+        "Hp": 15,
+        "HpMax": 15,
+        "Mana": 3,
+        "ManaMax": 3,
+        "Vitesse": 6,
+        "CapaciteCombat": 9,
+        "CapaciteTir": 8,
+        "Protection": 9,
+        "ProtectionMagique": 9,
+        "luck": "",
+        "Arme": {
+            "Slot1": {
+                "Nom": ""
+            },
+            "Slot2": {
+                "Nom": ""
+            }
+        },
+        "Skill": {},
+        "Magie": {},
+        "Inventaire": {}
+    },
+    "<@!245316512074694657>": {
+        "Nom": "LeGarsQuiVenèreNurgle",
+        "imageProfil": "https://media.discordapp.net/attachments/726571315418628133/749665274151567370/500px-Grandfather_nurgle.jpg",
+        "Description": "Jsuis Trop un wesh jlike la peste genr tro vener",
+        "Race": "Démon",
+        "Classe": "Nan",
+        "Hp": 7,
+        "HpMax": 7,
+        "Mana": 3,
+        "ManaMax": 3,
+        "Vitesse": 4,
+        "CapaciteCombat": 8,
+        "CapaciteTir": 8,
+        "Protection": 9,
+        "ProtectionMagique": 9,
+        "luck": "",
+        "Arme": {
+            "Slot1": {
+                "Nom": ""
+            },
+            "Slot2": {
+                "Nom": ""
+            }
+        },
+        "Skill": {},
+        "Magie": {},
+        "Inventaire": {}
+    }
+}
