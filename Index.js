@@ -1,10 +1,10 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
-const bdd = require("../rpgDiscord/RPG.json");
-const bddBestiaire = require("./RPG_Bestiaire.json");
 const config = require("./config.json")
-const bddArme = require("./RPG_Arme.json");
-const bddArmure = require("./RPG_Armure.json");
+const bdd = require("./data/Personnage.json");
+const bddBestiaire = require("./data/Bestiaire.json");
+const bddArme = require("./data/Arme.json");
+const bddArmure = require("./data/Armure.json");
 var fs = require("fs")
 var vm = require('vm');
 const { timeStamp } = require("console");
@@ -15,7 +15,7 @@ client.login(config.token);
 
 function Savebdd()
 {
-    fs.writeFile("./DiscordBot-master/RPG.json", JSON.stringify(bdd, null, 4), (err) =>
+    fs.writeFile("./data/Personnage.json", JSON.stringify(bdd, null, 4), (err) =>
     {
         if (err) message.channel.send("Une erreur est survenue, contacté un admin.");
     });
@@ -35,11 +35,11 @@ client.on("message",message =>
     roll6 = Math.floor(Math.random() * (borneMaximum - borneMinimum + 1)  + borneMinimum);
    
     //Inclusion des fichier externe
-    eval(fs.readFileSync(__dirname + '/RPG_Skill.js')+'');
-    eval(fs.readFileSync(__dirname + '/RPG_Personnage.js')+'');
-    eval(fs.readFileSync(__dirname + '/RPG_InterfaceCombat.js')+'');
-    eval(fs.readFileSync(__dirname + '/RPG_SystemeCombat.js')+'');
-    eval(fs.readFileSync(__dirname + '/RPG_Economie.js')+'');
+    eval(fs.readFileSync(__dirname + '/personnage/Skill.js')+'');
+    eval(fs.readFileSync(__dirname + '/personnage/Personnage.js')+'');
+    eval(fs.readFileSync(__dirname + '/interface/InterfaceCombat.js')+'');
+    eval(fs.readFileSync(__dirname + '/interface/SystemeCombat.js')+'');
+    eval(fs.readFileSync(__dirname + '/interface/Economie.js')+'');
 
     if(message.content == "?test")
     {
