@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Celesxx/DiscordRpGame#readme",
   "dependencies": {
-    "discord.js": "^11.6.4"
+    "discord.js": "^11.6.4",
+    "underscore": "^1.12.0"
   }
 }
