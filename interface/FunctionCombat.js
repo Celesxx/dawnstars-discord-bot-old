@@ -34,28 +34,41 @@ function normalizeUserId()
 
 function AjoutObjectPersonnageStat()
 {
+  uniquePlayersID = []
   TotalAdversaire.forEach(element => 
+  {
+    if(element.userId != undefined) 
     {
-      ParticipantStat =
-      {
-        name : element.Nom,
-        hp : element.Hp,
-        vitesse : element.Vitesse,
-        ordreAttaque : '',
-      }
-      Participant.push(ParticipantStat)
-    })
+      id = element.userId.slice(3,-1)
+      uniquePlayersID.push(id)
+    }
+    else id = element.userId
+    ParticipantStat =
+    {
+      userId : id,
+      fullUserId : element,
+      name : element.Nom,
+      hp : element.Hp,
+      vitesse : element.Vitesse,
+      ordreAttaque : '',
+      Emoji :'',
+    }
+    Participant.push(ParticipantStat)
+  })
 }
-
+  
 function ComparaisonVitesse()
 {
+  var TEmoji = ['1️⃣', '2️⃣', '3️⃣', '4️⃣', '5️⃣', '6️⃣', '7️⃣', '8️⃣', '9️⃣', '🔟']
   let i = 1    
   Participant = _.sortBy(Participant, 'vitesse');
   Participant.reverse()
   
   Participant.forEach(element => 
   {
+    element.Emoji = TEmoji[i-1]
     element.ordreAttaque = i
     i++
   })
 }
+

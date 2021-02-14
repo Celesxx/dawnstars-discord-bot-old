@@ -5,8 +5,9 @@ const bdd = require("./data/Personnage.json");
 const bddBestiaire = require("./data/Bestiaire.json");
 const bddArme = require("./data/Arme.json");
 const bddArmure = require("./data/Armure.json");
+const bddClasse = require("./data/Classe.json");
 var _ = require('underscore');
-var fs = require("fs")
+var fs = require("fs");
 var vm = require('vm');
 const { timeStamp } = require("console");
 var prefix = config.prefix;
@@ -28,15 +29,10 @@ client.on("message",message =>
     borneMinimum = 0;
     borneMaximum = 100;
     roll = Math.floor(Math.random() * (borneMaximum - borneMinimum + 1)  + borneMinimum);
-    roll1 = Math.floor(Math.random() * (borneMaximum - borneMinimum + 1)  + borneMinimum);
-    roll2 = Math.floor(Math.random() * (borneMaximum - borneMinimum + 1)  + borneMinimum);
-    roll3 = Math.floor(Math.random() * (borneMaximum - borneMinimum + 1)  + borneMinimum);
-    roll4 = Math.floor(Math.random() * (borneMaximum - borneMinimum + 1)  + borneMinimum);
-    roll5 = Math.floor(Math.random() * (borneMaximum - borneMinimum + 1)  + borneMinimum);
-    roll6 = Math.floor(Math.random() * (borneMaximum - borneMinimum + 1)  + borneMinimum);
    
     //Inclusion des fichier externe
     eval(fs.readFileSync(__dirname + '/personnage/Skill.js')+'');
+    eval(fs.readFileSync(__dirname + '/personnage/FunctionPersonnage.js')+'');
     eval(fs.readFileSync(__dirname + '/personnage/Personnage.js')+'');
     eval(fs.readFileSync(__dirname + '/interface/FunctionCombat.js')+'');
     eval(fs.readFileSync(__dirname + '/interface/InterfaceCombat.js')+'');
