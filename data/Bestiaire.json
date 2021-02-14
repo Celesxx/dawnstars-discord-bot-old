@@ -6,15 +6,15 @@
         "DescriptionAttaque" : "Le Loup fonce sur vous et vous mords de toute ses forces" ,
         "Image": "https://cdn.discordapp.com/attachments/723538729012297834/724774265269911622/fantasyart-1592870026825-1545.jpg",
         "ImageAttaque" : "https://cdn.discordapp.com/attachments/726571315418628133/726839837751115866/5dc5ba1b8cd7bd04a02c9a16cf87791c.jpg",
-        "Hp": 20,
-        "HpMax": 15,
+        "Hp": 100,
+        "HpMax": 100,
         "Mana": 3,
         "ManaMax": 3,
-        "Vitesse": 10,
-        "CapaciteCombat": 2,
-        "CapaciteTir": 8,
-        "Protection": 4,
-        "ProtectionMagique": 9,
-        "Degat": 15
+        "Vitesse": 5,
+        "ResistancePhysique": 1.5,
+        "ResistanceMagique": 1.4,
+        "Degat": 20,
+        "Critique" : 20,
+        "DegatCritique" : 10
     }
 }

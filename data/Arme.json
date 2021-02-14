@@ -2,10 +2,10 @@
     "1": 
     {
         "Nom" : "Épée de fer",
-        "Degat" : 2,
-        "Pénétration" : 0,
-        "Critique" : 2,
-        "DegatCritique" : 3,
+        "Degat" : 20,
+        "Pénétration" : 1.2,
+        "Critique" : 50,
+        "DegatCritique" : 10,
         "Effet Spécial" : "Na",
         "Prix" : 10,
         "CommandeAchat" : "?AchatArme @Pseudo 1"

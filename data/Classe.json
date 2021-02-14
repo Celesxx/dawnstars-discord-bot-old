@@ -1,0 +1,45 @@
+{
+    "Guerrier" : 
+    {
+        "Nom" : "Guerrier",
+        "HpBonus" : 10,
+        "ManaBonus" : 5,
+        "VitesseBonus" : 8,
+        "ResistancePhysiqueBonus" : 5,
+        "ResistanceMagiqueBonus" : 2,
+        "ChanceBonus" : 1,
+        "DegatMin" : 20,
+        "DegatMax" : 40,
+        "CritiqueBonus" : 2,
+        "Skill" : {} 
+    },
+    
+    "Mage" :
+    {
+        "HpBonus" : 5,
+        "ManaBonus" : 10,
+        "VitesseBonus" : 5,
+        "ResistancePhysiqueBonus" : 2,
+        "ResistanceMagiqueBonus" : 5,
+        "ChanceBonus" : 1,
+        "DegatMin" : 10,
+        "DegatMax" : 25,
+        "CritiqueBonus" : 0,
+        "Magie" : {} 
+    },
+
+    "Voleur" :
+    {
+        "HpBonus" : 8,
+        "ManaBonus" : 6,
+        "VitesseBonus" : 10,
+        "ResistancePhysiqueBonus" : 3,
+        "ResistanceMagiqueBonus" : 3,
+        "ChanceBonus" : 2,
+        "DegatMin" : 20,
+        "DegatMax" : 40,
+        "CritiqueBonus" : 5,
+        "Skill" : {} 
+    }
+
+}
