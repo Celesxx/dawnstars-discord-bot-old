@@ -1,5 +1,6 @@
 {
     "Loup": {
+        "userId" : "Loup",
         "Nom" : "Loup sauvage",
         "Description": "Un loup sauvage assoiffé de sang et de chair fraiche",
         "DescriptionMort" : "Après avoir effectué un dernier cris strident, le loup sombra dans le sommeil éternel",
@@ -11,8 +12,9 @@
         "Mana": 3,
         "ManaMax": 3,
         "Vitesse": 5,
-        "ResistancePhysique": 1.5,
-        "ResistanceMagique": 1.4,
+        "Pénétration" : 0 ,
+        "ResistancePhysique": 20,
+        "ResistanceMagique": 10,
         "Degat": 20,
         "Critique" : 20,
         "DegatCritique" : 10

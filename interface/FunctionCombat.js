@@ -37,12 +37,12 @@ function AjoutObjectPersonnageStat()
   uniquePlayersID = []
   TotalAdversaire.forEach(element => 
   {
-    if(element.userId != undefined) 
+    
+    if(element.userId.startsWith("<@")) 
     {
       id = element.userId.slice(3,-1)
       uniquePlayersID.push(id)
-    }
-    else id = element.userId
+    }else id = element
     ParticipantStat =
     {
       userId : id,
@@ -52,6 +52,7 @@ function AjoutObjectPersonnageStat()
       vitesse : element.Vitesse,
       ordreAttaque : '',
       Emoji :'',
+    
     }
     Participant.push(ParticipantStat)
   })

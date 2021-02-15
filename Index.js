@@ -6,13 +6,15 @@ const bddBestiaire = require("./data/Bestiaire.json");
 const bddArme = require("./data/Arme.json");
 const bddArmure = require("./data/Armure.json");
 const bddClasse = require("./data/Classe.json");
+const bddLog = require("./data/Log.json");
 var _ = require('underscore');
 var fs = require("fs");
 var vm = require('vm');
 const { timeStamp } = require("console");
 var prefix = config.prefix;
 var prefixbdd = config.prefixbdd;
-
+var logExist = false
+var logCount = 0
 client.login(config.token);
 
 function Savebdd()
@@ -22,6 +24,14 @@ function Savebdd()
         if (err) message.channel.send("Une erreur est survenue, contacté un admin.");
     });
 }
+function SavebddLog()
+{
+    fs.writeFile("./data/Log.json", JSON.stringify(bddLog, null, 4), (err) =>
+    {
+        if (err) message.channel.send("Une erreur est survenue, contacté un admin.");
+    });
+}
+
 
 
 client.on("message",message =>
@@ -29,7 +39,28 @@ client.on("message",message =>
     borneMinimum = 0;
     borneMaximum = 100;
     roll = Math.floor(Math.random() * (borneMaximum - borneMinimum + 1)  + borneMinimum);
-   
+
+    if(bddLog[logCount] != undefined) 
+    {
+        logExist = true
+        do logCount += 1
+        while(bddLog[logCount] != undefined) 
+        logExist = false
+    }
+
+    function erreurLog()
+    {
+        bddLog[logCount] = 
+        {
+            Auteur : message.author.username,
+            Id : message.author.id,
+            Message : message.content,
+            MessageErreur : "",
+            Erreur : {}
+        }
+        SavebddLog()
+    }
+    erreurLog()
     //Inclusion des fichier externe
     eval(fs.readFileSync(__dirname + '/personnage/Skill.js')+'');
     eval(fs.readFileSync(__dirname + '/personnage/FunctionPersonnage.js')+'');
@@ -38,8 +69,8 @@ client.on("message",message =>
     eval(fs.readFileSync(__dirname + '/interface/InterfaceCombat.js')+'');
     eval(fs.readFileSync(__dirname + '/interface/CommandCombat.js')+'');
     eval(fs.readFileSync(__dirname + '/interface/Economie.js')+'');
-
-
+    
+    logCount += 1;
     // if(message.content == "?nick")
     // {
     //     // if (!message.guild.me.hasPermission('MANAGE_NICKNAMES')) return message.channel.send('I don\'t have permission to change your nickname!');
@@ -48,7 +79,7 @@ client.on("message",message =>
 
     //         // message.reply("pseudo changé")
     // }
-
+    
 
     // if(message.content == "?test")
     // {

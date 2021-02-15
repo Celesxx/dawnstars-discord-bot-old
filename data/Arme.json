@@ -3,7 +3,7 @@
     {
         "Nom" : "Épée de fer",
         "Degat" : 20,
-        "Pénétration" : 1.2,
+        "Pénétration" : 20,
         "Critique" : 50,
         "DegatCritique" : 10,
         "Effet Spécial" : "Na",
@@ -21,5 +21,29 @@
         "Effet Spécial" : "Na",
         "Prix" : 50,
         "CommandeAchat" : "?AchatArme @Pseudo 2"
+    },
+
+    "PetiteGriffe": 
+    {
+        "Nom" : "Petite Griffe",
+        "Degat" : 10,
+        "Pénétration" : 20,
+        "Critique" : 20,
+        "DegatCritique" : 30,
+        "Effet Spécial" : "Na",
+        "Prix" : 10,
+        "CommandeAchat" : "?AchatArme @Pseudo 1"
+    },
+
+    "PetitCroc": 
+    {
+        "Nom" : "Petit Croc",
+        "Degat" : 20,
+        "Pénétration" : 35,
+        "Critique" : 5,
+        "DegatCritique" : 10,
+        "Effet Spécial" : "Na",
+        "Prix" : 10,
+        "CommandeAchat" : "?AchatArme @Pseudo 1"
     }
 }

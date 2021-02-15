@@ -3,7 +3,7 @@
     {
         "Nom" : "Armure en cuir",
         "Hp" : 1,
-        "Protection" : 1.2,
+        "Protection" : 10,
         "ProtectionMagique" : 0,
         "EffetSpecial" : "Na",
         "Prix" : 10,

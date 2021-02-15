@@ -1,0 +1,30 @@
+{
+    "0": {
+        "Auteur": "Cameron(Celes)",
+        "Id": "562233619507314708",
+        "Message": "?+bdd Name <@!251821125124751371> Chevalier Noir",
+        "MessageErreur": "Une erreur est survenue lors de l'enregistrement du nom",
+        "Erreur": "{\"stack\":\"TypeError: Cannot set property 'Nom' of undefined\\n    at eval (eval at <anonymous> (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\Index.js:67:5), <anonymous>:76:26)\\n    at Client.<anonymous> (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\Index.js:67:5)\\n    at Client.emit (events.js:315:20)\\n    at MessageCreateHandler.handle (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\node_modules\\\\discord.js\\\\src\\\\client\\\\websocket\\\\packets\\\\handlers\\\\MessageCreate.js:9:34)\\n    at WebSocketPacketManager.handle (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\node_modules\\\\discord.js\\\\src\\\\client\\\\websocket\\\\packets\\\\WebSocketPacketManager.js:108:65)\\n    at WebSocketConnection.onPacket (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\node_modules\\\\discord.js\\\\src\\\\client\\\\websocket\\\\WebSocketConnection.js:336:35)\\n    at WebSocketConnection.onMessage (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\node_modules\\\\discord.js\\\\src\\\\client\\\\websocket\\\\WebSocketConnection.js:299:17)\\n    at WebSocket.onMessage (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\node_modules\\\\ws\\\\lib\\\\event-target.js:120:16)\\n    at WebSocket.emit (events.js:315:20)\\n    at Receiver.receiverOnMessage (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\node_modules\\\\ws\\\\lib\\\\websocket.js:789:20)\",\"message\":\"Cannot set property 'Nom' of undefined\"}"
+    },
+    "1": {
+        "Auteur": "Phenix",
+        "Id": "609012640139968512",
+        "Message": "La commande n'a pas marché, merci de refaire la commande : '?+bdd Name @VotreUserName Nom' !",
+        "MessageErreur": "",
+        "Erreur": {}
+    },
+    "2": {
+        "Auteur": "Cameron(Celes)",
+        "Id": "562233619507314708",
+        "Message": "?+bdd Name <@!251821125124751371> Chevalier Noir",
+        "MessageErreur": "Une erreur est survenue lors de l'enregistrement du nom",
+        "Erreur": "{\"stack\":\"TypeError: Cannot set property 'Nom' of undefined\\n    at eval (eval at <anonymous> (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\Index.js:67:5), <anonymous>:76:26)\\n    at Client.<anonymous> (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\Index.js:67:5)\\n    at Client.emit (events.js:315:20)\\n    at MessageCreateHandler.handle (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\node_modules\\\\discord.js\\\\src\\\\client\\\\websocket\\\\packets\\\\handlers\\\\MessageCreate.js:9:34)\\n    at WebSocketPacketManager.handle (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\node_modules\\\\discord.js\\\\src\\\\client\\\\websocket\\\\packets\\\\WebSocketPacketManager.js:108:65)\\n    at WebSocketConnection.onPacket (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\node_modules\\\\discord.js\\\\src\\\\client\\\\websocket\\\\WebSocketConnection.js:336:35)\\n    at WebSocketConnection.onMessage (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\node_modules\\\\discord.js\\\\src\\\\client\\\\websocket\\\\WebSocketConnection.js:299:17)\\n    at WebSocket.onMessage (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\node_modules\\\\ws\\\\lib\\\\event-target.js:120:16)\\n    at WebSocket.emit (events.js:315:20)\\n    at Receiver.receiverOnMessage (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\node_modules\\\\ws\\\\lib\\\\websocket.js:789:20)\",\"message\":\"Cannot set property 'Nom' of undefined\"}"
+    },
+    "3": {
+        "Auteur": "Phenix",
+        "Id": "609012640139968512",
+        "Message": "La commande n'a pas marché, merci de refaire la commande : '?+bdd Name @VotreUserName Nom' !",
+        "MessageErreur": "",
+        "Erreur": {}
+    }
+}

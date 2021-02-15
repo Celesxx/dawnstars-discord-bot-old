@@ -1,58 +1,89 @@
 if(message.content.startsWith("?+bdd PersonnageCreation"))
 {
-    if(message.content.length > 25)
+    try
     {
-        let erreurDeRace = ""
-        Race= message.content.slice(48)
-        PersonnageId = message.content.slice(25,47)
-        if(Race == "Humain") {CreationStatPersonnageHumain()}
-        else if(Race == "Elfe") {CreationStatPersonnageElfes()}
-        else if(Race == "Nain"){CreationStatPersonnageNain()}
-        else if(Race == "Beastman"){CreationStatPersonnageBeastman()}
-        else if(Race == "Démon"){CreationStatPersonnageDemon()}
-        else if(Race == "Vampire"){CreationStatPersonnageVampire()}
-        else erreurDeRace = Race
-        if(erreurDeRace != "") message.channel.send(`La race choisie n'existe pas, attention au majuscule !`)
-        else
+        if(message.content.length > 25)
         {
-            bdd[PersonnageId]  =
+            let erreurDeRace = ""
+            let Race= message.content.slice(48)
+            let PersonnageId = message.content.slice(25,47)
+
+            if(Race == "Humain") {CreationStatPersonnageHumain()}
+            else if(Race == "Elfe") {CreationStatPersonnageElfes()}
+            else if(Race == "Nain"){CreationStatPersonnageNain()}
+            else if(Race == "Beastman"){CreationStatPersonnageBeastman()}
+            else if(Race == "Démon"){CreationStatPersonnageDemon()}
+            else if(Race == "Vampire"){CreationStatPersonnageVampire()}
+            else erreurDeRace = Race
+
+            if(erreurDeRace != "") message.channel.send(`La race choisie n'existe pas, attention au majuscule !`)
+            else
             {
-                userId : PersonnageId,
-                Nom : "Nan",
-                imageProfil : "Nan",
-                Description : "Nan",
-                Race : Race,
-                Classe : {},
-                Hp: Hp,
-                HpMax: Hp,
-                Mana: Mana,
-                ManaMax:Mana,
-                Vitesse:Vitesse,
-                ResistancePhysique: ResistancePhysique,
-                ResistanceMagique : ResistanceMagique,
-                Chance: Chance,
-                Arme :
+                bdd[PersonnageId]  =
                 {
-                    Slot1 :{},
-                    Slot2 :{}
-                },
-                Armure:{},
-                Skill:{},
-                Magie:{},
-                Inventaire:{}
+                    userId : PersonnageId,
+                    Nom : "Nan",
+                    imageProfil : "Nan",
+                    Description : "Nan",
+                    Race : Race,
+                    Classe : {},
+                    Hp: Hp,
+                    HpMax: Hp,
+                    Mana: Mana,
+                    ManaMax:Mana,
+                    Vitesse:Vitesse,
+                    ResistancePhysique: ResistancePhysique,
+                    ResistanceMagique : ResistanceMagique,
+                    Chance: Chance,
+                    Arme :
+                    {
+                        Slot1 :{},
+                        Slot2 :{}
+                    },
+                    Armure:{},
+                    Skill:{},
+                    Magie:{},
+                    Inventaire:{}
+                }
+                Savebdd()
             }
-            Savebdd()
+            if(Race == "Beastman") 
+            {
+                bdd[PersonnageId].Classe = bddClasse["Beastman"]
+                bdd[PersonnageId].Arme.Slot1 = bddArme["PetiteGriffe"]
+                bdd[PersonnageId].Arme.Slot2 = bddArme["PetitCroc"]
+                Savebdd()
+                message.channel.send(`votre personnage a bien été créé avec la classe ${bdd[PersonnageId].Race} avec la classe ${bdd[PersonnageId].Classe.Nom}, avec comme arme ${bdd[PersonnageId].Arme.Slot1.Nom} et ${bdd[PersonnageId].Arme.Slot2.Nom} !`)
+            }else message.channel.send(`votre personnage a bien été créé avec la classe ${bdd[PersonnageId].Race} !`)
+        
         }
+    } catch(error)
+    {
+        message.channel.send("La commande n'a pas marché, merci de refaire la commande : '?+bdd PersonnageCreation @VotreUserName LaRace' !")
+        bddLog[logCount].MessageErreur = `Une erreur est survenue lors de l'enregistrement de la création de Personnage`
+        bddLog[logCount].Erreur = JSON.stringify(error, Object.getOwnPropertyNames(error))
+        SavebddLog()
     }
 }
 
 if(message.content.startsWith("?+bdd Name"))
 {
-    PersonnageName = message.content.slice(11,33)
-    Name = message.content.slice(34)
-    PersonnageId = bdd[PersonnageName]
-    PersonnageId.Nom = Name
-    Savebdd()
+    try 
+    {
+        PersonnageName = message.content.slice(11,33)
+        Name = message.content.slice(34)
+        PersonnageId = bdd[PersonnageName]
+        PersonnageId.Nom = Name
+        console.log(message.author.username)
+        Savebdd()
+        message.channel.send(`${PersonnageId.Nom}, ton nom a bien été rajouté !`)
+    }catch(error) 
+    {
+        message.channel.send("La commande n'a pas marché, merci de refaire la commande : '?+bdd Name @VotreUserName Nom' !")
+        bddLog[logCount].MessageErreur = `Une erreur est survenue lors de l'enregistrement du nom`
+        bddLog[logCount].Erreur = JSON.stringify(error, Object.getOwnPropertyNames(error))
+        SavebddLog()
+    }
 }
 
 if(message.content.startsWith("?+bdd ProfilImage"))
