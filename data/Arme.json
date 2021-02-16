@@ -1,17 +1,29 @@
 {
-    "1": 
+    "Poing": 
     {
-        "Nom" : "Épée de fer",
-        "Degat" : 20,
-        "Pénétration" : 20,
-        "Critique" : 50,
+        "Nom" : "Poing",
+        "Degat" : 0,
+        "Pénétration" : 0,
+        "Critique" : 20,
         "DegatCritique" : 10,
         "Effet Spécial" : "Na",
         "Prix" : 10,
-        "CommandeAchat" : "?AchatArme @Pseudo 1"
+        "CommandeAchat" : ""
     },
 
-    "2": 
+    "EpeeFer": 
+    {
+        "Nom" : "Épée de fer",
+        "Degat" : 20,
+        "Pénétration" : 10,
+        "Critique" : 10,
+        "DegatCritique" : 10,
+        "Effet Spécial" : "Na",
+        "Prix" : 10,
+        "CommandeAchat" : "?AchatArme @Pseudo EpeeFer"
+    },
+
+    "EpeeAcier": 
     {
         "Nom" : "Épée Acier",
         "Degat" : 2,
@@ -20,9 +32,32 @@
         "DegatCritique" : 3,
         "Effet Spécial" : "Na",
         "Prix" : 50,
-        "CommandeAchat" : "?AchatArme @Pseudo 2"
+        "CommandeAchat" : "?AchatArme @Pseudo EpeeAcier"
     },
 
+    "PetitBatonMagique": 
+    {
+        "Nom" : "Petit Baton Magique",
+        "Degat" : 10,
+        "Pénétration" : 5,
+        "Critique" : 5,
+        "DegatCritique" : 10,
+        "Effet Spécial" : "Na",
+        "Prix" : 10,
+        "CommandeAchat" : "?AchatArme @Pseudo PetitBatonMagique"
+    },
+
+    "PetiteDagueFer": 
+    {
+        "Nom" : "Petite Dague en fer",
+        "Degat" : 10,
+        "Pénétration" : 15,
+        "Critique" : 15,
+        "DegatCritique" : 20,
+        "Effet Spécial" : "Na",
+        "Prix" : 10,
+        "CommandeAchat" : "?AchatArme @Pseudo PetiteDagueFer"
+    },
     "PetiteGriffe": 
     {
         "Nom" : "Petite Griffe",
@@ -31,8 +66,8 @@
         "Critique" : 20,
         "DegatCritique" : 30,
         "Effet Spécial" : "Na",
-        "Prix" : 10,
-        "CommandeAchat" : "?AchatArme @Pseudo 1"
+        "Prix" : 0,
+        "CommandeAchat" : ""
     },
 
     "PetitCroc": 
@@ -43,7 +78,7 @@
         "Critique" : 5,
         "DegatCritique" : 10,
         "Effet Spécial" : "Na",
-        "Prix" : 10,
-        "CommandeAchat" : "?AchatArme @Pseudo 1"
+        "Prix" : 0,
+        "CommandeAchat" : ""
     }
 }

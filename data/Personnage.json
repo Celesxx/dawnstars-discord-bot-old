@@ -91,24 +91,62 @@
     },
     "<@!251821125124751371>": {
         "userId": "<@!251821125124751371>",
-        "Nom": "Nan",
-        "imageProfil": "Nan",
-        "Description": "Nan",
+        "Nom": "Chevalier Noir",
+        "imageProfil": " https://cdn.discordapp.com/attachments/726571315418628133/811026741454962708/Caballero_Negro.png",
+        "Description": "test",
         "Race": "Humain",
-        "Classe": {},
-        "Hp": 131,
-        "HpMax": 131,
-        "Mana": 115,
-        "ManaMax": 115,
-        "Vitesse": 5,
-        "ResistancePhysique": 8,
-        "ResistanceMagique": 5,
-        "Chance": 13,
-        "Arme": {
-            "Slot1": {},
-            "Slot2": {}
+        "Classe": {
+            "Nom": "Guerrier",
+            "HpBonus": 10,
+            "ManaBonus": 5,
+            "VitesseBonus": 8,
+            "ResistancePhysiqueBonus": 5,
+            "ResistanceMagiqueBonus": 2,
+            "ChanceBonus": 1,
+            "DegatMin": 20,
+            "DegatMax": 40,
+            "CritiqueBonus": 2,
+            "Skill": {}
         },
-        "Armure": {},
+        "Hp": 116,
+        "HpMax": 116,
+        "Mana": 143,
+        "ManaMax": 143,
+        "Vitesse": 6,
+        "ResistancePhysique": 8,
+        "ResistanceMagique": 7,
+        "Chance": 12,
+        "Arme": {
+            "Slot1": {
+                "Nom": "Épée de fer",
+                "Degat": 20,
+                "Pénétration": 10,
+                "Critique": 10,
+                "DegatCritique": 10,
+                "Effet Spécial": "Na",
+                "Prix": 10,
+                "CommandeAchat": "?AchatArme @Pseudo EpeeFer"
+            },
+            "Slot2": {
+                "Nom": "Poing",
+                "Degat": 0,
+                "Pénétration": 0,
+                "Critique": 20,
+                "DegatCritique": 10,
+                "Effet Spécial": "Na",
+                "Prix": 10,
+                "CommandeAchat": ""
+            }
+        },
+        "Armure": {
+            "Nom": "Armure en cuir",
+            "Hp": 1,
+            "Protection": 10,
+            "ProtectionMagique": 0,
+            "EffetSpecial": "Na",
+            "Prix": 10,
+            "AchatArmure": "Na"
+        },
         "Skill": {},
         "Magie": {},
         "Inventaire": {}

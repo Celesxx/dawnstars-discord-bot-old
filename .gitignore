@@ -2,3 +2,4 @@ config.json
 package-lock.json
 .vscode
 node_modules
+data/Log.json

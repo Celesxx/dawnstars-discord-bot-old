@@ -26,5 +26,411 @@
         "Message": "La commande n'a pas marché, merci de refaire la commande : '?+bdd Name @VotreUserName Nom' !",
         "MessageErreur": "",
         "Erreur": {}
+    },
+    "4": {
+        "Auteur": "Cameron(Celes)",
+        "Id": "562233619507314708",
+        "Message": "?+bdd PersonnageCreation <@!251821125124751371> Humain",
+        "MessageErreur": "",
+        "Erreur": {}
+    },
+    "5": {
+        "Auteur": "Phenix",
+        "Id": "609012640139968512",
+        "Message": "votre personnage a bien été créé avec la classe Humain !",
+        "MessageErreur": "",
+        "Erreur": {}
+    },
+    "6": {
+        "Auteur": "Cameron(Celes)",
+        "Id": "562233619507314708",
+        "Message": "?+bdd Name <@!251821125124751371> Chevalier Noir",
+        "MessageErreur": "",
+        "Erreur": {}
+    },
+    "7": {
+        "Auteur": "Phenix",
+        "Id": "609012640139968512",
+        "Message": "Chevalier Noir, ton nom a bien été rajouté !",
+        "MessageErreur": "",
+        "Erreur": {}
+    },
+    "8": {
+        "Auteur": "Cameron(Celes)",
+        "Id": "562233619507314708",
+        "Message": "",
+        "MessageErreur": "",
+        "Erreur": {}
+    },
+    "9": {
+        "Auteur": "Cameron(Celes)",
+        "Id": "562233619507314708",
+        "Message": "",
+        "MessageErreur": "",
+        "Erreur": {}
+    },
+    "10": {
+        "Auteur": "Cameron(Celes)",
+        "Id": "562233619507314708",
+        "Message": "?+bdd ProfilImage https://cdn.discordapp.com/attachments/726571315418628133/811026741454962708/Caballero_Negro.png",
+        "MessageErreur": "Une erreur est survenue lors de l'enregistrement de l'image",
+        "Erreur": "{\"stack\":\"TypeError: Cannot set property 'imageProfil' of undefined\\n    at eval (eval at <anonymous> (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\Index.js:67:5), <anonymous>:96:34)\\n    at Client.<anonymous> (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\Index.js:67:5)\\n    at Client.emit (events.js:315:20)\\n    at MessageCreateHandler.handle (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\node_modules\\\\discord.js\\\\src\\\\client\\\\websocket\\\\packets\\\\handlers\\\\MessageCreate.js:9:34)\\n    at WebSocketPacketManager.handle (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\node_modules\\\\discord.js\\\\src\\\\client\\\\websocket\\\\packets\\\\WebSocketPacketManager.js:108:65)\\n    at WebSocketConnection.onPacket (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\node_modules\\\\discord.js\\\\src\\\\client\\\\websocket\\\\WebSocketConnection.js:336:35)\\n    at WebSocketConnection.onMessage (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\node_modules\\\\discord.js\\\\src\\\\client\\\\websocket\\\\WebSocketConnection.js:299:17)\\n    at WebSocket.onMessage (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\node_modules\\\\ws\\\\lib\\\\event-target.js:120:16)\\n    at WebSocket.emit (events.js:315:20)\\n    at Receiver.receiverOnMessage (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\node_modules\\\\ws\\\\lib\\\\websocket.js:789:20)\",\"message\":\"Cannot set property 'imageProfil' of undefined\"}"
+    },
+    "11": {
+        "Auteur": "Phenix",
+        "Id": "609012640139968512",
+        "Message": "La commande n'a pas marché, merci de refaire la commande : '?+bdd ProfilImage @VotreUserName urlImage' !",
+        "MessageErreur": "",
+        "Erreur": {}
+    },
+    "12": {
+        "Auteur": "Cameron(Celes)",
+        "Id": "562233619507314708",
+        "Message": "?+bdd ProfilImage <@!251821125124751371>  https://cdn.discordapp.com/attachments/726571315418628133/811026741454962708/Caballero_Negro.png",
+        "MessageErreur": "",
+        "Erreur": {}
+    },
+    "13": {
+        "Auteur": "Phenix",
+        "Id": "609012640139968512",
+        "Message": "l'image a bien été rajouté !",
+        "MessageErreur": "",
+        "Erreur": {}
+    },
+    "14": {
+        "Auteur": "Cameron(Celes)",
+        "Id": "562233619507314708",
+        "Message": "?+bdd Description test",
+        "MessageErreur": "Une erreur est survenue lors de l'enregistrement de la description",
+        "Erreur": "{\"stack\":\"TypeError: Cannot set property 'Description' of undefined\\n    at eval (eval at <anonymous> (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\Index.js:67:5), <anonymous>:115:34)\\n    at Client.<anonymous> (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\Index.js:67:5)\\n    at Client.emit (events.js:315:20)\\n    at MessageCreateHandler.handle (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\node_modules\\\\discord.js\\\\src\\\\client\\\\websocket\\\\packets\\\\handlers\\\\MessageCreate.js:9:34)\\n    at WebSocketPacketManager.handle (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\node_modules\\\\discord.js\\\\src\\\\client\\\\websocket\\\\packets\\\\WebSocketPacketManager.js:108:65)\\n    at WebSocketConnection.onPacket (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\node_modules\\\\discord.js\\\\src\\\\client\\\\websocket\\\\WebSocketConnection.js:336:35)\\n    at WebSocketConnection.onMessage (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\node_modules\\\\discord.js\\\\src\\\\client\\\\websocket\\\\WebSocketConnection.js:299:17)\\n    at WebSocket.onMessage (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\node_modules\\\\ws\\\\lib\\\\event-target.js:120:16)\\n    at WebSocket.emit (events.js:315:20)\\n    at Receiver.receiverOnMessage (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\node_modules\\\\ws\\\\lib\\\\websocket.js:789:20)\",\"message\":\"Cannot set property 'Description' of undefined\"}"
+    },
+    "15": {
+        "Auteur": "Phenix",
+        "Id": "609012640139968512",
+        "Message": "La commande n'a pas marché, merci de refaire la commande : '?+bdd Description @VotreUserName TaDescription' !",
+        "MessageErreur": "",
+        "Erreur": {}
+    },
+    "16": {
+        "Auteur": "Cameron(Celes)",
+        "Id": "562233619507314708",
+        "Message": "?+bdd Description <@!251821125124751371> test",
+        "MessageErreur": "",
+        "Erreur": {}
+    },
+    "17": {
+        "Auteur": "Phenix",
+        "Id": "609012640139968512",
+        "Message": "la description a bien été rajouté !",
+        "MessageErreur": "",
+        "Erreur": {}
+    },
+    "18": {
+        "Auteur": "Cameron(Celes)",
+        "Id": "562233619507314708",
+        "Message": "?+bdd Classe <@!251821125124751371> Guerrier",
+        "MessageErreur": "",
+        "Erreur": {}
+    },
+    "19": {
+        "Auteur": "Phenix",
+        "Id": "609012640139968512",
+        "Message": "La classe Guerrier a bien été rajouté !",
+        "MessageErreur": "",
+        "Erreur": {}
+    },
+    "20": {
+        "Auteur": "Cameron(Celes)",
+        "Id": "562233619507314708",
+        "Message": "?+bdd StarterPack",
+        "MessageErreur": "",
+        "Erreur": {}
+    },
+    "21": {
+        "Auteur": "Cameron(Celes)",
+        "Id": "562233619507314708",
+        "Message": "?+bdd StarterPack <@!251821125124751371>",
+        "MessageErreur": "Une erreur est survenue lors de la commande starterPack",
+        "Erreur": "{\"stack\":\"ReferenceError: EpeeFer is not defined\\n    at eval (eval at <anonymous> (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\Index.js:67:5), <anonymous>:159:49)\\n    at Client.<anonymous> (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\Index.js:67:5)\\n    at Client.emit (events.js:315:20)\\n    at MessageCreateHandler.handle (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\node_modules\\\\discord.js\\\\src\\\\client\\\\websocket\\\\packets\\\\handlers\\\\MessageCreate.js:9:34)\\n    at WebSocketPacketManager.handle (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\node_modules\\\\discord.js\\\\src\\\\client\\\\websocket\\\\packets\\\\WebSocketPacketManager.js:108:65)\\n    at WebSocketConnection.onPacket (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\node_modules\\\\discord.js\\\\src\\\\client\\\\websocket\\\\WebSocketConnection.js:336:35)\\n    at WebSocketConnection.onMessage (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\node_modules\\\\discord.js\\\\src\\\\client\\\\websocket\\\\WebSocketConnection.js:299:17)\\n    at WebSocket.onMessage (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\node_modules\\\\ws\\\\lib\\\\event-target.js:120:16)\\n    at WebSocket.emit (events.js:315:20)\\n    at Receiver.receiverOnMessage (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\node_modules\\\\ws\\\\lib\\\\websocket.js:789:20)\",\"message\":\"EpeeFer is not defined\"}"
+    },
+    "22": {
+        "Auteur": "Phenix",
+        "Id": "609012640139968512",
+        "Message": "La commande n'a pas marché, merci de refaire la commande : '?+bdd StarterPack @VotreUserName' !",
+        "MessageErreur": "",
+        "Erreur": {}
+    },
+    "23": {
+        "Auteur": "Cameron(Celes)",
+        "Id": "562233619507314708",
+        "Message": "?+bdd StarterPack <@!251821125124751371>",
+        "MessageErreur": "Une erreur est survenue lors de la commande starterPack",
+        "Erreur": "{\"stack\":\"ReferenceError: EpeeFer is not defined\\n    at eval (eval at <anonymous> (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\Index.js:67:5), <anonymous>:159:49)\\n    at Client.<anonymous> (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\Index.js:67:5)\\n    at Client.emit (events.js:315:20)\\n    at MessageCreateHandler.handle (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\node_modules\\\\discord.js\\\\src\\\\client\\\\websocket\\\\packets\\\\handlers\\\\MessageCreate.js:9:34)\\n    at WebSocketPacketManager.handle (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\node_modules\\\\discord.js\\\\src\\\\client\\\\websocket\\\\packets\\\\WebSocketPacketManager.js:108:65)\\n    at WebSocketConnection.onPacket (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\node_modules\\\\discord.js\\\\src\\\\client\\\\websocket\\\\WebSocketConnection.js:336:35)\\n    at WebSocketConnection.onMessage (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\node_modules\\\\discord.js\\\\src\\\\client\\\\websocket\\\\WebSocketConnection.js:299:17)\\n    at WebSocket.onMessage (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\node_modules\\\\ws\\\\lib\\\\event-target.js:120:16)\\n    at WebSocket.emit (events.js:315:20)\\n    at Receiver.receiverOnMessage (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\node_modules\\\\ws\\\\lib\\\\websocket.js:789:20)\",\"message\":\"EpeeFer is not defined\"}"
+    },
+    "24": {
+        "Auteur": "Phenix",
+        "Id": "609012640139968512",
+        "Message": "La commande n'a pas marché, merci de refaire la commande : '?+bdd StarterPack @VotreUserName' !",
+        "MessageErreur": "",
+        "Erreur": {}
+    },
+    "25": {
+        "Auteur": "Cameron(Celes)",
+        "Id": "562233619507314708",
+        "Message": "?+bdd StarterPack <@!251821125124751371>",
+        "MessageErreur": "Une erreur est survenue lors de la commande starterPack",
+        "Erreur": "{\"stack\":\"ReferenceError: EpeeFer is not defined\\n    at eval (eval at <anonymous> (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\Index.js:67:5), <anonymous>:157:33)\\n    at Client.<anonymous> (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\Index.js:67:5)\\n    at Client.emit (events.js:315:20)\\n    at MessageCreateHandler.handle (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\node_modules\\\\discord.js\\\\src\\\\client\\\\websocket\\\\packets\\\\handlers\\\\MessageCreate.js:9:34)\\n    at WebSocketPacketManager.handle (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\node_modules\\\\discord.js\\\\src\\\\client\\\\websocket\\\\packets\\\\WebSocketPacketManager.js:108:65)\\n    at WebSocketConnection.onPacket (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\node_modules\\\\discord.js\\\\src\\\\client\\\\websocket\\\\WebSocketConnection.js:336:35)\\n    at WebSocketConnection.onMessage (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\node_modules\\\\discord.js\\\\src\\\\client\\\\websocket\\\\WebSocketConnection.js:299:17)\\n    at WebSocket.onMessage (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\node_modules\\\\ws\\\\lib\\\\event-target.js:120:16)\\n    at WebSocket.emit (events.js:315:20)\\n    at Receiver.receiverOnMessage (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\node_modules\\\\ws\\\\lib\\\\websocket.js:789:20)\",\"message\":\"EpeeFer is not defined\"}"
+    },
+    "26": {
+        "Auteur": "Phenix",
+        "Id": "609012640139968512",
+        "Message": "La commande n'a pas marché, merci de refaire la commande : '?+bdd StarterPack @VotreUserName' !",
+        "MessageErreur": "",
+        "Erreur": {}
+    },
+    "27": {
+        "Auteur": "Cameron(Celes)",
+        "Id": "562233619507314708",
+        "Message": "?+bdd StarterPack <@!251821125124751371>",
+        "MessageErreur": "Une erreur est survenue lors de la commande starterPack",
+        "Erreur": "{\"stack\":\"ReferenceError: Poing is not defined\\n    at eval (eval at <anonymous> (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\Index.js:67:5), <anonymous>:157:33)\\n    at Client.<anonymous> (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\Index.js:67:5)\\n    at Client.emit (events.js:315:20)\\n    at MessageCreateHandler.handle (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\node_modules\\\\discord.js\\\\src\\\\client\\\\websocket\\\\packets\\\\handlers\\\\MessageCreate.js:9:34)\\n    at WebSocketPacketManager.handle (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\node_modules\\\\discord.js\\\\src\\\\client\\\\websocket\\\\packets\\\\WebSocketPacketManager.js:108:65)\\n    at WebSocketConnection.onPacket (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\node_modules\\\\discord.js\\\\src\\\\client\\\\websocket\\\\WebSocketConnection.js:336:35)\\n    at WebSocketConnection.onMessage (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\node_modules\\\\discord.js\\\\src\\\\client\\\\websocket\\\\WebSocketConnection.js:299:17)\\n    at WebSocket.onMessage (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\node_modules\\\\ws\\\\lib\\\\event-target.js:120:16)\\n    at WebSocket.emit (events.js:315:20)\\n    at Receiver.receiverOnMessage (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\node_modules\\\\ws\\\\lib\\\\websocket.js:789:20)\",\"message\":\"Poing is not defined\"}"
+    },
+    "28": {
+        "Auteur": "Phenix",
+        "Id": "609012640139968512",
+        "Message": "La commande n'a pas marché, merci de refaire la commande : '?+bdd StarterPack @VotreUserName' !",
+        "MessageErreur": "",
+        "Erreur": {}
+    },
+    "29": {
+        "Auteur": "Cameron(Celes)",
+        "Id": "562233619507314708",
+        "Message": "?+bdd StarterPack <@!251821125124751371>",
+        "MessageErreur": "Une erreur est survenue lors de la commande starterPack",
+        "Erreur": "{\"stack\":\"ReferenceError: Poing is not defined\\n    at eval (eval at <anonymous> (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\Index.js:67:5), <anonymous>:157:33)\\n    at Client.<anonymous> (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\Index.js:67:5)\\n    at Client.emit (events.js:315:20)\\n    at MessageCreateHandler.handle (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\node_modules\\\\discord.js\\\\src\\\\client\\\\websocket\\\\packets\\\\handlers\\\\MessageCreate.js:9:34)\\n    at WebSocketPacketManager.handle (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\node_modules\\\\discord.js\\\\src\\\\client\\\\websocket\\\\packets\\\\WebSocketPacketManager.js:108:65)\\n    at WebSocketConnection.onPacket (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\node_modules\\\\discord.js\\\\src\\\\client\\\\websocket\\\\WebSocketConnection.js:336:35)\\n    at WebSocketConnection.onMessage (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\node_modules\\\\discord.js\\\\src\\\\client\\\\websocket\\\\WebSocketConnection.js:299:17)\\n    at WebSocket.onMessage (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\node_modules\\\\ws\\\\lib\\\\event-target.js:120:16)\\n    at WebSocket.emit (events.js:315:20)\\n    at Receiver.receiverOnMessage (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\node_modules\\\\ws\\\\lib\\\\websocket.js:789:20)\",\"message\":\"Poing is not defined\"}"
+    },
+    "30": {
+        "Auteur": "Phenix",
+        "Id": "609012640139968512",
+        "Message": "La commande n'a pas marché, merci de refaire la commande : '?+bdd StarterPack @VotreUserName' !",
+        "MessageErreur": "",
+        "Erreur": {}
+    },
+    "31": {
+        "Auteur": "Cameron(Celes)",
+        "Id": "562233619507314708",
+        "Message": "?+bdd StarterPack <@!251821125124751371>",
+        "MessageErreur": "Une erreur est survenue lors de la commande starterPack",
+        "Erreur": "{\"stack\":\"ReferenceError: Poing is not defined\\n    at eval (eval at <anonymous> (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\Index.js:67:5), <anonymous>:158:33)\\n    at Client.<anonymous> (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\Index.js:67:5)\\n    at Client.emit (events.js:315:20)\\n    at MessageCreateHandler.handle (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\node_modules\\\\discord.js\\\\src\\\\client\\\\websocket\\\\packets\\\\handlers\\\\MessageCreate.js:9:34)\\n    at WebSocketPacketManager.handle (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\node_modules\\\\discord.js\\\\src\\\\client\\\\websocket\\\\packets\\\\WebSocketPacketManager.js:108:65)\\n    at WebSocketConnection.onPacket (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\node_modules\\\\discord.js\\\\src\\\\client\\\\websocket\\\\WebSocketConnection.js:336:35)\\n    at WebSocketConnection.onMessage (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\node_modules\\\\discord.js\\\\src\\\\client\\\\websocket\\\\WebSocketConnection.js:299:17)\\n    at WebSocket.onMessage (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\node_modules\\\\ws\\\\lib\\\\event-target.js:120:16)\\n    at WebSocket.emit (events.js:315:20)\\n    at Receiver.receiverOnMessage (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\node_modules\\\\ws\\\\lib\\\\websocket.js:789:20)\",\"message\":\"Poing is not defined\"}"
+    },
+    "32": {
+        "Auteur": "Phenix",
+        "Id": "609012640139968512",
+        "Message": "La commande n'a pas marché, merci de refaire la commande : '?+bdd StarterPack @VotreUserName' !",
+        "MessageErreur": "",
+        "Erreur": {}
+    },
+    "33": {
+        "Auteur": "Cameron(Celes)",
+        "Id": "562233619507314708",
+        "Message": "?+bdd StarterPack <@!251821125124751371>",
+        "MessageErreur": "Une erreur est survenue lors de la commande starterPack",
+        "Erreur": "{\"stack\":\"ReferenceError: Poing is not defined\\n    at eval (eval at <anonymous> (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\Index.js:67:5), <anonymous>:158:33)\\n    at Client.<anonymous> (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\Index.js:67:5)\\n    at Client.emit (events.js:315:20)\\n    at MessageCreateHandler.handle (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\node_modules\\\\discord.js\\\\src\\\\client\\\\websocket\\\\packets\\\\handlers\\\\MessageCreate.js:9:34)\\n    at WebSocketPacketManager.handle (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\node_modules\\\\discord.js\\\\src\\\\client\\\\websocket\\\\packets\\\\WebSocketPacketManager.js:108:65)\\n    at WebSocketConnection.onPacket (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\node_modules\\\\discord.js\\\\src\\\\client\\\\websocket\\\\WebSocketConnection.js:336:35)\\n    at WebSocketConnection.onMessage (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\node_modules\\\\discord.js\\\\src\\\\client\\\\websocket\\\\WebSocketConnection.js:299:17)\\n    at WebSocket.onMessage (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\node_modules\\\\ws\\\\lib\\\\event-target.js:120:16)\\n    at WebSocket.emit (events.js:315:20)\\n    at Receiver.receiverOnMessage (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\node_modules\\\\ws\\\\lib\\\\websocket.js:789:20)\",\"message\":\"Poing is not defined\"}"
+    },
+    "34": {
+        "Auteur": "Phenix",
+        "Id": "609012640139968512",
+        "Message": "La commande n'a pas marché, merci de refaire la commande : '?+bdd StarterPack @VotreUserName' !",
+        "MessageErreur": "",
+        "Erreur": {}
+    },
+    "35": {
+        "Auteur": "Cameron(Celes)",
+        "Id": "562233619507314708",
+        "Message": "?+bdd StarterPack <@!251821125124751371>",
+        "MessageErreur": "Une erreur est survenue lors de la commande starterPack",
+        "Erreur": "{\"stack\":\"ReferenceError: Poing is not defined\\n    at eval (eval at <anonymous> (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\Index.js:67:5), <anonymous>:158:33)\\n    at Client.<anonymous> (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\Index.js:67:5)\\n    at Client.emit (events.js:315:20)\\n    at MessageCreateHandler.handle (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\node_modules\\\\discord.js\\\\src\\\\client\\\\websocket\\\\packets\\\\handlers\\\\MessageCreate.js:9:34)\\n    at WebSocketPacketManager.handle (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\node_modules\\\\discord.js\\\\src\\\\client\\\\websocket\\\\packets\\\\WebSocketPacketManager.js:108:65)\\n    at WebSocketConnection.onPacket (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\node_modules\\\\discord.js\\\\src\\\\client\\\\websocket\\\\WebSocketConnection.js:336:35)\\n    at WebSocketConnection.onMessage (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\node_modules\\\\discord.js\\\\src\\\\client\\\\websocket\\\\WebSocketConnection.js:299:17)\\n    at WebSocket.onMessage (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\node_modules\\\\ws\\\\lib\\\\event-target.js:120:16)\\n    at WebSocket.emit (events.js:315:20)\\n    at Receiver.receiverOnMessage (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\node_modules\\\\ws\\\\lib\\\\websocket.js:789:20)\",\"message\":\"Poing is not defined\"}"
+    },
+    "36": {
+        "Auteur": "Phenix",
+        "Id": "609012640139968512",
+        "Message": "La commande n'a pas marché, merci de refaire la commande : '?+bdd StarterPack @VotreUserName' !",
+        "MessageErreur": "",
+        "Erreur": {}
+    },
+    "37": {
+        "Auteur": "Cameron(Celes)",
+        "Id": "562233619507314708",
+        "Message": "?+bdd StarterPack <@!251821125124751371>",
+        "MessageErreur": "Une erreur est survenue lors de la commande starterPack",
+        "Erreur": "{\"stack\":\"ReferenceError: Poing is not defined\\n    at eval (eval at <anonymous> (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\Index.js:67:5), <anonymous>:158:33)\\n    at Client.<anonymous> (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\Index.js:67:5)\\n    at Client.emit (events.js:315:20)\\n    at MessageCreateHandler.handle (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\node_modules\\\\discord.js\\\\src\\\\client\\\\websocket\\\\packets\\\\handlers\\\\MessageCreate.js:9:34)\\n    at WebSocketPacketManager.handle (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\node_modules\\\\discord.js\\\\src\\\\client\\\\websocket\\\\packets\\\\WebSocketPacketManager.js:108:65)\\n    at WebSocketConnection.onPacket (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\node_modules\\\\discord.js\\\\src\\\\client\\\\websocket\\\\WebSocketConnection.js:336:35)\\n    at WebSocketConnection.onMessage (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\node_modules\\\\discord.js\\\\src\\\\client\\\\websocket\\\\WebSocketConnection.js:299:17)\\n    at WebSocket.onMessage (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\node_modules\\\\ws\\\\lib\\\\event-target.js:120:16)\\n    at WebSocket.emit (events.js:315:20)\\n    at Receiver.receiverOnMessage (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\node_modules\\\\ws\\\\lib\\\\websocket.js:789:20)\",\"message\":\"Poing is not defined\"}"
+    },
+    "38": {
+        "Auteur": "Phenix",
+        "Id": "609012640139968512",
+        "Message": "La commande n'a pas marché, merci de refaire la commande : '?+bdd StarterPack @VotreUserName' !",
+        "MessageErreur": "",
+        "Erreur": {}
+    },
+    "39": {
+        "Auteur": "Cameron(Celes)",
+        "Id": "562233619507314708",
+        "Message": "?+bdd StarterPack <@!251821125124751371>",
+        "MessageErreur": "Une erreur est survenue lors de la commande starterPack",
+        "Erreur": "{\"stack\":\"ReferenceError: ArmureCuir is not defined\\n    at eval (eval at <anonymous> (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\Index.js:67:5), <anonymous>:161:47)\\n    at Client.<anonymous> (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\Index.js:67:5)\\n    at Client.emit (events.js:315:20)\\n    at MessageCreateHandler.handle (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\node_modules\\\\discord.js\\\\src\\\\client\\\\websocket\\\\packets\\\\handlers\\\\MessageCreate.js:9:34)\\n    at WebSocketPacketManager.handle (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\node_modules\\\\discord.js\\\\src\\\\client\\\\websocket\\\\packets\\\\WebSocketPacketManager.js:108:65)\\n    at WebSocketConnection.onPacket (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\node_modules\\\\discord.js\\\\src\\\\client\\\\websocket\\\\WebSocketConnection.js:336:35)\\n    at WebSocketConnection.onMessage (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\node_modules\\\\discord.js\\\\src\\\\client\\\\websocket\\\\WebSocketConnection.js:299:17)\\n    at WebSocket.onMessage (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\node_modules\\\\ws\\\\lib\\\\event-target.js:120:16)\\n    at WebSocket.emit (events.js:315:20)\\n    at Receiver.receiverOnMessage (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\node_modules\\\\ws\\\\lib\\\\websocket.js:789:20)\",\"message\":\"ArmureCuir is not defined\"}"
+    },
+    "40": {
+        "Auteur": "Phenix",
+        "Id": "609012640139968512",
+        "Message": "La commande n'a pas marché, merci de refaire la commande : '?+bdd StarterPack @VotreUserName' !",
+        "MessageErreur": "",
+        "Erreur": {}
+    },
+    "41": {
+        "Auteur": "Cameron(Celes)",
+        "Id": "562233619507314708",
+        "Message": "?+bdd StarterPack <@!251821125124751371>",
+        "MessageErreur": "",
+        "Erreur": {}
+    },
+    "42": {
+        "Auteur": "Phenix",
+        "Id": "609012640139968512",
+        "Message": "Vous avez reçus en starter : Épée de fer, Armure en cuir",
+        "MessageErreur": "",
+        "Erreur": {}
+    },
+    "43": {
+        "Auteur": "Cameron(Celes)",
+        "Id": "562233619507314708",
+        "Message": "?PersonnageStat <@!251821125124751371>",
+        "MessageErreur": "",
+        "Erreur": {}
+    },
+    "44": {
+        "Auteur": "Phenix",
+        "Id": "609012640139968512",
+        "Message": "",
+        "MessageErreur": "",
+        "Erreur": {}
+    },
+    "45": {
+        "Auteur": "Cameron(Celes)",
+        "Id": "562233619507314708",
+        "Message": "?PersonnageStat <@!251821125124751371>",
+        "MessageErreur": "Une erreur est survenue lors de la commande PersonnageStat",
+        "Erreur": "{\"stack\":\"RangeError: RichEmbed field names may not be empty.\\n    at Function.normalizeField (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\node_modules\\\\discord.js\\\\src\\\\structures\\\\RichEmbed.js:323:33)\\n    at RichEmbed.addField (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\node_modules\\\\discord.js\\\\src\\\\structures\\\\RichEmbed.js:162:39)\\n    at eval (eval at <anonymous> (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\Index.js:67:5), <anonymous>:210:18)\\n    at Client.<anonymous> (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\Index.js:67:5)\\n    at Client.emit (events.js:315:20)\\n    at MessageCreateHandler.handle (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\node_modules\\\\discord.js\\\\src\\\\client\\\\websocket\\\\packets\\\\handlers\\\\MessageCreate.js:9:34)\\n    at WebSocketPacketManager.handle (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\node_modules\\\\discord.js\\\\src\\\\client\\\\websocket\\\\packets\\\\WebSocketPacketManager.js:108:65)\\n    at WebSocketConnection.onPacket (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\node_modules\\\\discord.js\\\\src\\\\client\\\\websocket\\\\WebSocketConnection.js:336:35)\\n    at WebSocketConnection.onMessage (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\node_modules\\\\discord.js\\\\src\\\\client\\\\websocket\\\\WebSocketConnection.js:299:17)\\n    at WebSocket.onMessage (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\node_modules\\\\ws\\\\lib\\\\event-target.js:120:16)\",\"message\":\"RichEmbed field names may not be empty.\"}"
+    },
+    "46": {
+        "Auteur": "Phenix",
+        "Id": "609012640139968512",
+        "Message": "La commande n'a pas marché, merci de refaire la commande : '?PersonnageStat @VotreUserName' !",
+        "MessageErreur": "",
+        "Erreur": {}
+    },
+    "47": {
+        "Auteur": "Cameron(Celes)",
+        "Id": "562233619507314708",
+        "Message": "?PersonnageStat <@!251821125124751371>",
+        "MessageErreur": "",
+        "Erreur": {}
+    },
+    "48": {
+        "Auteur": "Phenix",
+        "Id": "609012640139968512",
+        "Message": "",
+        "MessageErreur": "",
+        "Erreur": {}
+    },
+    "49": {
+        "Auteur": "Cameron(Celes)",
+        "Id": "562233619507314708",
+        "Message": "?PersonnageStat <@!251821125124751371>",
+        "MessageErreur": "",
+        "Erreur": {}
+    },
+    "50": {
+        "Auteur": "Phenix",
+        "Id": "609012640139968512",
+        "Message": "",
+        "MessageErreur": "",
+        "Erreur": {}
+    },
+    "51": {
+        "Auteur": "Cameron(Celes)",
+        "Id": "562233619507314708",
+        "Message": "?PersonnageStat <@!562233619507314708>",
+        "MessageErreur": "",
+        "Erreur": {}
+    },
+    "52": {
+        "Auteur": "Phenix",
+        "Id": "609012640139968512",
+        "Message": "",
+        "MessageErreur": "",
+        "Erreur": {}
+    },
+    "53": {
+        "Auteur": "Cameron(Celes)",
+        "Id": "562233619507314708",
+        "Message": "\\📜",
+        "MessageErreur": "",
+        "Erreur": {}
+    },
+    "54": {
+        "Auteur": "Cameron(Celes)",
+        "Id": "562233619507314708",
+        "Message": "?PersonnageStat <@!562233619507314708>",
+        "MessageErreur": "Une erreur est survenue lors de la commande PersonnageStat",
+        "Erreur": "{\"stack\":\"RangeError: RichEmbed field values may not exceed 1024 characters.\\n    at Function.normalizeField (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\node_modules\\\\discord.js\\\\src\\\\structures\\\\RichEmbed.js:325:36)\\n    at RichEmbed.addField (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\node_modules\\\\discord.js\\\\src\\\\structures\\\\RichEmbed.js:162:39)\\n    at eval (eval at <anonymous> (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\Index.js:67:5), <anonymous>:207:18)\\n    at Client.<anonymous> (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\Index.js:67:5)\\n    at Client.emit (events.js:315:20)\\n    at MessageCreateHandler.handle (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\node_modules\\\\discord.js\\\\src\\\\client\\\\websocket\\\\packets\\\\handlers\\\\MessageCreate.js:9:34)\\n    at WebSocketPacketManager.handle (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\node_modules\\\\discord.js\\\\src\\\\client\\\\websocket\\\\packets\\\\WebSocketPacketManager.js:108:65)\\n    at WebSocketConnection.onPacket (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\node_modules\\\\discord.js\\\\src\\\\client\\\\websocket\\\\WebSocketConnection.js:336:35)\\n    at WebSocketConnection.onMessage (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\node_modules\\\\discord.js\\\\src\\\\client\\\\websocket\\\\WebSocketConnection.js:299:17)\\n    at WebSocket.onMessage (c:\\\\Users\\\\luciu\\\\Desktop\\\\BotDiscord\\\\BotGithub\\\\BotDiscord\\\\BotRpDiscord\\\\DiscordBot-master\\\\DiscordRpGame\\\\node_modules\\\\ws\\\\lib\\\\event-target.js:120:16)\",\"message\":\"RichEmbed field values may not exceed 1024 characters.\"}"
+    },
+    "55": {
+        "Auteur": "Phenix",
+        "Id": "609012640139968512",
+        "Message": "La commande n'a pas marché, merci de refaire la commande : '?PersonnageStat @VotreUserName' !",
+        "MessageErreur": "",
+        "Erreur": {}
+    },
+    "56": {
+        "Auteur": "Cameron(Celes)",
+        "Id": "562233619507314708",
+        "Message": "?PersonnageStat <@!562233619507314708>",
+        "MessageErreur": "",
+        "Erreur": {}
+    },
+    "57": {
+        "Auteur": "Phenix",
+        "Id": "609012640139968512",
+        "Message": "",
+        "MessageErreur": "",
+        "Erreur": {}
+    },
+    "58": {
+        "Auteur": "Cameron(Celes)",
+        "Id": "562233619507314708",
+        "Message": "?PersonnageStat <@!562233619507314708>",
+        "MessageErreur": "",
+        "Erreur": {}
+    },
+    "59": {
+        "Auteur": "Phenix",
+        "Id": "609012640139968512",
+        "Message": "",
+        "MessageErreur": "",
+        "Erreur": {}
+    },
+    "60": {
+        "Auteur": "Cameron(Celes)",
+        "Id": "562233619507314708",
+        "Message": "?PersonnageStat <@!251821125124751371>",
+        "MessageErreur": "",
+        "Erreur": {}
+    },
+    "61": {
+        "Auteur": "Phenix",
+        "Id": "609012640139968512",
+        "Message": "",
+        "MessageErreur": "",
+        "Erreur": {}
     }
 }

@@ -1,5 +1,5 @@
 {
-    "1" : 
+    "ArmureCuir" : 
     {
         "Nom" : "Armure en cuir",
         "Hp" : 1,
@@ -7,17 +7,6 @@
         "ProtectionMagique" : 0,
         "EffetSpecial" : "Na",
         "Prix" : 10,
-        "AchatArmure" : "Na"
-    },
-
-    "2" : 
-    {
-        "Nom" : "Armure en fer",
-        "Hp" : 3,
-        "Protection" : 1,
-        "ProtectionMagique" : 1,
-        "EffetSpecial" : "Na",
-        "Prix" : 50,
         "AchatArmure" : "Na"
     }
 }
