@@ -2,7 +2,7 @@
     "Loup": {
         "userId" : "Loup",
         "Nom" : "Loup sauvage",
-        "Description": "Un loup sauvage assoiffé de sang et de chair fraiche",
+        "Description": "Un loup sauvage assoiffé de sang et de chair fraiche vous tombe dessus et va tenter de vous déchiqueter !",
         "DescriptionMort" : "Après avoir effectué un dernier cris strident, le loup sombra dans le sommeil éternel",
         "DescriptionAttaque" : "Le Loup fonce sur vous et vous mords de toute ses forces" ,
         "Image": "https://cdn.discordapp.com/attachments/723538729012297834/724774265269911622/fantasyart-1592870026825-1545.jpg",

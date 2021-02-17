@@ -73,3 +73,20 @@ function ComparaisonVitesse()
   })
 }
 
+// function finCombat()
+// {
+//   setTimeout(() =>
+//   {
+//     if(monstre.hp <= 0)
+//     {
+//       message.channel.bulkDelete(3)
+      
+//       tour1, tour2, tour3 = 100;
+//       let xp = 
+//       let endEmbed = new Discord.RichEmbed()
+//       .setAuthor(`vous avez réussie à abattre le ${monstre.Nom} !`)
+//       .setColor("#49FF33")
+    
+//     }
+//   }, 3000)
+// }

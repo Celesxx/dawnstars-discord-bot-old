@@ -10,7 +10,7 @@ function SystemeCombat()
   var textOrdreAttaque = `C'est à ${Participant[i].name} de faire une action !`
   var AffichageCombat = new Discord.RichEmbed()
   .setColor('#b8b8b8')
-  .setAuthor("Status des Participants")
+  .setDescription(monstre.Description)
   
   Participant.forEach(element => {AffichageCombat.addField(`${element.name}`, `${element.hp}`, true)})
   AffichageCombat.addField(textOrdreAttaque, `Choisis une acion a effectuer en fonction de ce que tu veux faire.`)
@@ -40,17 +40,17 @@ function SystemeCombat()
       // await message.react('🍀');
       // await message.react('📜');
     
-    for(let a =0; a < 100; a++)
+    for(var tour1 =0; tour1 < 100; tour1++)
     {
       const collector = message.awaitReactions(filter, {max : 1, time: 5000000 })
       await collector.then(collected => 
-      {
-        if(i >= Participant.length) i = 0;
-
-        console.log(`i = ${i}`)
-        if(Participant[i].name != "Loup sauvage")
         {
-          let reaction = collected.first();
+        if(i >= Participant.length) i = 0;
+        let reaction = collected.first();
+        console.log(`i = ${i}`)
+        if(Participant[i].name != monstre.Nom)
+        {
+
           // function deleteReaction() { idUserWhoReact.forEach(element => { if(element != client.user.id) reaction.remove(element) }) }
           let idUserWhoReact =[]
 
@@ -84,7 +84,7 @@ function SystemeCombat()
                   // await message.react('🪓');
                   // await message.react('❌');
 
-                  for(let a =0; a < 100; a++)
+                  for(var tour2 =0; tour2 < 100; tour2++)
                   {
                     const collector = message.awaitReactions(filter, {max : 1, time: 5000000 })
                     await collector.then(collected => 
@@ -92,7 +92,7 @@ function SystemeCombat()
                       let reaction = collected.first();
                       let idUserWhoReact =[]
                       for(const array of Array.from(reaction.users)) { idUserWhoReact.push(array[0]) }
-                      // console.log(`i = ${i}`)
+                      console.log(`i = ${i}`)
                       if(idUserWhoReact[idUserWhoReact.length -1] == Participant[i].userId && verificationChoixArme == false)
                       {
                         switch(reaction.emoji.name)
@@ -118,7 +118,7 @@ function SystemeCombat()
                               for (let r = 0; r < TotalAdversaire.length; r++) await message.react(Participant[r].Emoji)
                               await message.react('❌');
 
-                              for(let a =0; a < 100; a++)
+                              for(var tour3 =0; tour3 < 100; tour3++)
                               {
                                 const collector = message.awaitReactions(filter, {max : 1, time: 5000000 })
                                 await collector.then(collected => 
@@ -214,8 +214,11 @@ function SystemeCombat()
           reaction.remove(reaction.users.last())
         }else if(Participant[i].name == "Loup sauvage") 
         {
-          setTimeout(() => 
-          {
+          // setTimeout(() => 
+          // {
+            console.log("ici reaction test monstre")
+            console.log(reaction)
+            console.log(reaction.user)
             rollCritique = Math.floor(Math.random() * (100 - 0 + 1)  + 0);
             let Degat = 0;
             do cible = Math.floor(Math.random()*Participant.length)
@@ -255,9 +258,10 @@ function SystemeCombat()
                 console.log("test array name bidule")
               }
             }
+            reaction.remove(reaction.users.last())
             editMessageEmbed()
             // BattleStart();
-          }, 5000)
+          // }, 5000)
           console.log("test3")
         }
       }).catch(console.error)

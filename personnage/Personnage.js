@@ -137,7 +137,7 @@ if(message.content.startsWith("?+bdd Classe"))
             Savebdd();
         }
         else message.channel.send("La classe choisie n'est pas valide, attention au espace et au majuscule !")
-    } catch(error)
+    }catch(error)
     {
         message.channel.send("La commande n'a pas marché, merci de refaire la commande : '?+bdd Classe @VotreUserName LaClasse' !")
         bddLog[logCount].MessageErreur = `Une erreur est survenue lors de l'enregistrement de l'image`
