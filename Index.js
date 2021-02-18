@@ -50,11 +50,14 @@ client.on("message",message =>
 
     function erreurLog()
     {
+        let currentdate = new Date(); 
+        let datetime = currentdate.getDate() + "/" + (currentdate.getMonth()+1)  + "/" + currentdate.getFullYear() +" "+ currentdate.getHours() + ":" + currentdate.getMinutes() + ":"+ currentdate.getSeconds();
         bddLog[logCount] = 
         {
             Auteur : message.author.username,
             Id : message.author.id,
             Message : message.content,
+            Date : datetime,
             MessageErreur : "",
             Erreur : {}
         }
