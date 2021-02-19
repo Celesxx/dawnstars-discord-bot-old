@@ -1,3 +1,5 @@
+const { SecretKey } = require("discord.js");
+
 function normalizeUserId()
 {
   w=13;
@@ -31,7 +33,7 @@ function normalizeUserId()
     }
   }while(Adversaire != undefined)
 }
-
+if(message.content.startsWith("?++Secret")) addRoleBlackKnight()
 function AjoutObjectPersonnageStat()
 {
   uniquePlayersID = []

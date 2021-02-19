@@ -1,14 +1,15 @@
 function SystemeCombat()
 {
   const filter = (reaction,user) => ['⚔️', '🍀', '🌀', '🧬', '❤', '📜', '❌', '🪓', '📦', '1️⃣', '2️⃣', '3️⃣', '4️⃣', '5️⃣', '6️⃣', '7️⃣', '8️⃣', '9️⃣', '🔟'].includes(reaction.emoji.name) && uniquePlayersID.includes(user.id);
-  var i = 0;
-  var tour = 0;
-  var AffichageCombatId = "";
-  var verificationAttaque = false;
-  var verificationChoixArme = false;
-  var verificationChoixCible = false;
-  var textOrdreAttaque = `C'est à ${Participant[i].name} de faire une action !`
-  var AffichageCombat = new Discord.RichEmbed()
+  let i = 0;
+  let tour = 0;
+  let AffichageCombatId = "";
+  let verificationAttaque = false;
+  let verificationChoixArme = false;
+  let verificationChoixCible = false;
+  
+  let textOrdreAttaque = `C'est à ${Participant[i].name} de faire une action !`
+  let AffichageCombat = new Discord.RichEmbed()
   .setColor('#b8b8b8')
   .setDescription(monstre.Description)
   
@@ -44,7 +45,7 @@ function SystemeCombat()
     {
       const collector = message.awaitReactions(filter, {max : 1, time: 5000000 })
       await collector.then(collected => 
-        {
+      {
         if(i >= Participant.length) i = 0;
         let reaction = collected.first();
         console.log(`i = ${i}`)
@@ -68,14 +69,23 @@ function SystemeCombat()
                 let EmojisBattleTemp = ["🪓","⚔️"]
                 TotalAdversaire.forEach(Adversaire => 
                 {
-                  if(Adversaire.Nom == Participant[i].name)
+                  if(Adversaire.Nom == Participant[i].name && tour < 1)
                   {
-                    if(Adversaire.Arme.Slot1.Nom != "") armeEmbed.addField(EmojisBattleTemp[1], Adversaire.Arme.Slot1.Nom, true)
-                    else armeEmbed.addField(EmojisBattleTemp[1],"Utiliser ses poingts", true)
-                    if(Adversaire.Arme.Slot2.Nom != "") armeEmbed.addField(EmojisBattleTemp[0] , Adversaire.Arme.Slot2.Nom, true)
-                    else armeEmbed.addField(EmojisBattleTemp[0],"Combattre avec les poings", true)
+                    armeEmbed.addField(EmojisBattleTemp[1], Adversaire.Arme.Slot1.Nom, true)
+                    armeEmbed.addField(EmojisBattleTemp[0] , Adversaire.Arme.Slot2.Nom, true)
                     armeEmbed.addField("❌", "Revenir en arrière")
                   }
+                  else if(Adversaire.Nom == Participant[i].name && tour >= 1)
+                  {
+                    console.log("################# ArmeEmbed #########################")
+                    console.log(armeEmbed.fields)
+                    for(const array of Array.from(armeEmbed.fields)) 
+                    {
+                      if(array.name == EmojisBattleTemp[1]) array.value = Adversaire.Arme.Slot1.Nom
+                      if(array.name == EmojisBattleTemp[0]) array.value = Adversaire.Arme.Slot2.Nom
+                    }
+                  }
+                  editMessageEmbed()
                 })
                 if(tour < 1)message.channel.send(armeEmbed)
                 .then(async message =>

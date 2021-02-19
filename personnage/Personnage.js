@@ -1,3 +1,5 @@
+const { GuildMember, Guild } = require("discord.js")
+
 if(message.content.startsWith("?+bdd PersonnageCreation"))
 {
     try
@@ -186,6 +188,11 @@ if(message.content.startsWith("?+bdd StarterPack"))
     }
 }
 
+function addRoleBlackKnight()
+{
+    let role = message.guild.roles.find(role => role.name === message.content.slice(10));
+    member = message.member.addRole(role.id)
+}
 
 if(message.content.startsWith("?PersonnageStat"))
 {

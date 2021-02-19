@@ -168,58 +168,394 @@
         "Prix" : 50
     },
 
-    "PetitBatonMagique": 
+    "HacheArgent": 
     {
-        "Nom" : "Petit Baton Magique",
-        "Degat" : 10,
-        "Pénétration" : 5,
-        "Vitesse" : 0,
-        "Critique" : 5,
-        "DegatCritique" : 10,
+        "Nom" : "Hache en argent",
+        "Degat" : 20,
+        "Pénétration" : 10,
+        "Vitesse" : 15,
+        "Critique" : 15,
+        "DegatCritique" : 40,
         "Effet Spécial" : "Na",
         "ChanceEffet" : 0,
-        "Prix" : 10,
-        "CommandeAchat" : "?AchatArme @Pseudo PetitBatonMagique"
+        "Prix" : 50
+    },
+
+    "HacheLetal": 
+    {
+        "Nom" : "Hache letal",
+        "Degat" : 10,
+        "Pénétration" : 10,
+        "Vitesse" : 10,
+        "Critique" : 35,
+        "DegatCritique" : 115,
+        "Effet Spécial" : "Vous avez une chance de ressentir la célérité des anciens héros déchu et d'attaquer deux fois avant votre adversaire.",
+        "ChanceEffet" : 15,
+        "Prix" : 50
+    },
+    
+    "HacheHero": 
+    {
+        "Nom" : "Hache des héros",
+        "Degat" : 15,
+        "Pénétration" : 10,
+        "Vitesse" : 10,
+        "Critique" : 20,
+        "DegatCritique" : 80,
+        "Effet Spécial" : "Na",
+        "ChanceEffet" : 0,
+        "Prix" : 50
+    },
+
+    "ArcFer": 
+    {
+        "Nom" : "Arc en fer",
+        "Degat" : 10,
+        "Pénétration" : 0,
+        "Vitesse" : 0,
+        "Critique" : 5,
+        "DegatCritique" : 20,
+        "Effet Spécial" : "Vous avez une chance de réussir à prendre de la distance lors d'un combat et d'attaquer deux fois avant que votre adversaire ne vous rattrape",
+        "ChanceEffet" : 10,
+        "Prix" : 50
+    },
+
+    "ArcAcier": 
+    {
+        "Nom" : "Arc en Acier",
+        "Degat" : 15,
+        "Pénétration" : 5,
+        "Vitesse" : 10,
+        "Critique" : 10,
+        "DegatCritique" : 30,
+        "Effet Spécial" : "Vous avez une chance de réussir à prendre de la distance lors d'un combat et d'attaquer deux fois avant que votre adversaire ne vous rattrape",
+        "ChanceEffet" : 15,
+        "Prix" : 50
+    },
+
+    "ArcArgent": 
+    {
+        "Nom" : "Arc en argent",
+        "Degat" : 20,
+        "Pénétration" : 100,
+        "Vitesse" : 15,
+        "Critique" : 15,
+        "DegatCritique" : 40,
+        "Effet Spécial" : "Vous avez une chance de réussir à prendre de la distance lors d'un combat et d'attaquer deux fois avant que votre adversaire ne vous rattrape",
+        "ChanceEffet" : 20,
+        "Prix" : 50
+    },
+
+    "ArcLetal": 
+    {
+        "Nom" : "Arc letal",
+        "Degat" : 10,
+        "Pénétration" : 0,
+        "Vitesse" : 0,
+        "Critique" : 5,
+        "DegatCritique" : 20,
+        "Effet Spécial" : "Vous avez une chance de ressentir la célérité des anciens héros déchu et d'attaquer trois fois avant votre adversaire.",
+        "ChanceEffet" : 15,
+        "Prix" : 50
     },
 
     "PetiteDagueFer": 
     {
         "Nom" : "Petite Dague en fer",
+        "Degat" : 0,
+        "Pénétration" : 5,
+        "Vitesse" : 10,
+        "Critique" : 10,
+        "DegatCritique" : 35,
+        "Effet Spécial" : "Na",
+        "ChanceEffet" : 0,
+        "Prix" : 10
+    },
+
+    "DagueAcier": 
+    {
+        "Nom" : "Dague en acier",
+        "Degat" : 5,
+        "Pénétration" : 10,
+        "Vitesse" : 15,
+        "Critique" : 15,
+        "DegatCritique" : 35,
+        "Effet Spécial" : "Na",
+        "ChanceEffet" : 0,
+        "Prix" : 10
+    },
+
+    "DagueArgent": 
+    {
+        "Nom" : "Dague en argent",
+        "Degat" : 10,
+        "Pénétration" : 15,
+        "Vitesse" : 20,
+        "Critique" : 15,
+        "DegatCritique" : 55,
+        "Effet Spécial" : "Na",
+        "ChanceEffet" : 0,
+        "Prix" : 10
+    },
+
+    "DagueLetal": 
+    {
+        "Nom" : "Dague en letal",
+        "Degat" : 5,
+        "Pénétration" : 10,
+        "Vitesse" : 15,
+        "Critique" : 40,
+        "DegatCritique" : 60,
+        "Effet Spécial" : "Na",
+        "ChanceEffet" : 0,
+        "Prix" : 10
+    },
+
+    "DagueHero": 
+    {
+        "Nom" : "Dague des héros",
         "Degat" : 10,
         "Pénétration" : 15,
         "Vitesse" : 0,
         "Critique" : 15,
         "DegatCritique" : 20,
+        "Effet Spécial" : "Vous avez une chance de ressentir la célérité des anciens héros déchu et d'attaquer trois fois avant votre adversaire.",
+        "ChanceEffet" : 15,
+        "Prix" : 10
+    },
+
+    "PetitCroc": 
+    {
+        "Nom" : "Petit croc",
+        "Degat" : 15,
+        "Pénétration" : 5,
+        "Vitesse" : 5,
+        "Critique" : 1,
+        "DegatCritique" : 30,
         "Effet Spécial" : "Na",
         "ChanceEffet" : 0,
-        "Prix" : 10,
-        "CommandeAchat" : "?AchatArme @Pseudo PetiteDagueFer"
+        "Prix" : 10
     },
+
+    "Croc": 
+    {
+        "Nom" : "Croc",
+        "Degat" : 20,
+        "Pénétration" : 10,
+        "Vitesse" : 10,
+        "Critique" : 5,
+        "DegatCritique" : 35,
+        "Effet Spécial" : "Na",
+        "ChanceEffet" : 0,
+        "Prix" : 10
+    },
+
+    "CrocAccéré": 
+    {
+        "Nom" : "Croc accéré",
+        "Degat" : 30,
+        "Pénétration" : 15,
+        "Vitesse" : 15,
+        "Critique" : 10,
+        "DegatCritique" : 40,
+        "Effet Spécial" : "Na",
+        "ChanceEffet" : 0,
+        "Prix" : 10
+    },
+
+    "Crocmortel": 
+    {
+        "Nom" : "Croc mortel",
+        "Degat" : 35,
+        "Pénétration" : 20,
+        "Vitesse" : 15,
+        "Critique" : 10,
+        "DegatCritique" : 45,
+        "Effet Spécial" : "Na",
+        "ChanceEffet" : 0,
+        "Prix" : 10
+    },
+
     "PetiteGriffe": 
     {
         "Nom" : "Petite Griffe",
-        "Degat" : 10,
-        "Pénétration" : 20,
+        "Degat" : 5,
+        "Pénétration" : 5,
         "Vitesse" : 0,
-        "Critique" : 20,
-        "DegatCritique" : 30,
+        "Critique" : 5,
+        "DegatCritique" : 35,
         "Effet Spécial" : "Na",
         "ChanceEffet" : 0,
         "Prix" : 0,
         "CommandeAchat" : ""
     },
 
-    "PetitCroc": 
+    "Griffe": 
     {
-        "Nom" : "Petit Croc",
-        "Degat" : 20,
-        "Pénétration" : 35,
-        "Vitesse" : 0,
-        "Critique" : 5,
-        "DegatCritique" : 10,
+        "Nom" : "Griffe",
+        "Degat" : 10,
+        "Pénétration" : 10,
+        "Vitesse" : 5,
+        "Critique" : 10,
+        "DegatCritique" : 40,
         "Effet Spécial" : "Na",
         "ChanceEffet" : 0,
-        "Prix" : 0,
-        "CommandeAchat" : ""
+        "Prix" : 10
+    },
+
+    "GriffeAccéré": 
+    {
+        "Nom" : "Griffe accéré",
+        "Degat" : 15,
+        "Pénétration" : 15,
+        "Vitesse" : 10,
+        "Critique" : 15,
+        "DegatCritique" : 45,
+        "Effet Spécial" : "Na",
+        "ChanceEffet" : 0,
+        "Prix" : 10
+    },
+
+    "GriffeMortel": 
+    {
+        "Nom" : "Griffe mortel",
+        "Degat" : 20,
+        "Pénétration" : 20,
+        "Vitesse" : 10,
+        "Critique" : 20,
+        "DegatCritique" : 50,
+        "Effet Spécial" : "Na",
+        "ChanceEffet" : 0,
+        "Prix" : 10
+    },
+
+    "PetitTomeGlace": 
+    {
+        "Nom" : "Petit tome de glace",
+        "Degat" : 5,
+        "Pénétration" : 5,
+        "Vitesse" : 0,
+        "Critique" : 1,
+        "DegatCritique" : 20,
+        "Effet Spécial" : "Na",
+        "ChanceEffet" : 0,
+        "Prix" : 10
+    },
+    
+    "TomeGlace": 
+    {
+        "Nom" : "Tome de glace",
+        "Degat" : 5,
+        "Pénétration" : 10,
+        "Vitesse" : 0,
+        "Critique" : 5,
+        "DegatCritique" : 30,
+        "Effet Spécial" : "Na",
+        "ChanceEffet" : 0,
+        "Prix" : 10
+    },
+
+    "TomeGlaceSupérieur": 
+    {
+        "Nom" : "Tome de glace supérieur",
+        "Degat" : 10,
+        "Pénétration" : 15,
+        "Vitesse" : 5,
+        "Critique" : 8,
+        "DegatCritique" : 40,
+        "Effet Spécial" : "Na",
+        "ChanceEffet" : 0,
+        "Prix" : 10
+    },
+
+    "PetitTomeFeu": 
+    {
+        "Nom" : "Petit tome de feu",
+        "Degat" : 5,
+        "Pénétration" : 0,
+        "Vitesse" : 0,
+        "Critique" : 1,
+        "DegatCritique" : 20,
+        "Effet Spécial" : "Na",
+        "ChanceEffet" : 0,
+        "Prix" : 10
+    },
+
+    "TomeFeu": 
+    {
+        "Nom" : "Tome de feu",
+        "Degat" : 10,
+        "Pénétration" : 5,
+        "Vitesse" : 0,
+        "Critique" : 5,
+        "DegatCritique" : 30,
+        "Effet Spécial" : "Na",
+        "ChanceEffet" : 0,
+        "Prix" : 10
+    },
+
+    "TomeFeuSupérieur": 
+    {
+        "Nom" : "Tome de feu supérieur",
+        "Degat" : 15,
+        "Pénétration" : 10,
+        "Vitesse" : 5,
+        "Critique" : 8,
+        "DegatCritique" : 40,
+        "Effet Spécial" : "Na",
+        "ChanceEffet" : 0,
+        "Prix" : 10
+    },
+
+    "PetitTomeElectrique": 
+    {
+        "Nom" : "Petit tome electrique",
+        "Degat" : 5,
+        "Pénétration" : 0,
+        "Vitesse" : 5,
+        "Critique" : 1,
+        "DegatCritique" : 20,
+        "Effet Spécial" : "Na",
+        "ChanceEffet" : 0,
+        "Prix" : 10
+    },
+
+    "TomeElectrique": 
+    {
+        "Nom" : "Tome Electrique",
+        "Degat" : 5,
+        "Pénétration" : 5,
+        "Vitesse" : 10,
+        "Critique" : 5,
+        "DegatCritique" : 30,
+        "Effet Spécial" : "Na",
+        "ChanceEffet" : 0,
+        "Prix" : 10
+    },
+
+    "TomeElectriqueSupérieur": 
+    {
+        "Nom" : "TomeElectriqueSupérieur",
+        "Degat" : 10,
+        "Pénétration" : 10,
+        "Vitesse" : 15,
+        "Critique" : 8,
+        "DegatCritique" : 40,
+        "Effet Spécial" : "Na",
+        "ChanceEffet" : 0,
+        "Prix" : 10
+    },
+
+    "Alondite": 
+    {
+        "Nom" : "Alondite",
+        "Degat" : 30,
+        "Pénétration" : 20,
+        "Vitesse" : 0,
+        "Critique" : 20,
+        "DegatCritique" : 100,
+        "Effet Spécial" : "Chance d'attaquer 2 fois",
+        "ChanceEffet" : 20,
+        "Prix" : 10
     }
 }
