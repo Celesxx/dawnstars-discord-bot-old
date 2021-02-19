@@ -4,35 +4,168 @@
         "Nom" : "Poing",
         "Degat" : 0,
         "Pénétration" : 0,
+        "Vitesse" : 0,
         "Critique" : 20,
         "DegatCritique" : 10,
         "Effet Spécial" : "Na",
-        "Prix" : 10,
-        "CommandeAchat" : ""
+        "ChanceEffet" : 0,
+        "Prix" : 10
     },
 
     "EpeeFer": 
     {
         "Nom" : "Épée de fer",
-        "Degat" : 20,
-        "Pénétration" : 10,
-        "Critique" : 10,
-        "DegatCritique" : 10,
+        "Degat" : 10,
+        "Pénétration" : 5,
+        "Vitesse" : 0,
+        "Critique" : 5,
+        "DegatCritique" : 30,
         "Effet Spécial" : "Na",
-        "Prix" : 10,
-        "CommandeAchat" : "?AchatArme @Pseudo EpeeFer"
+        "ChanceEffet" : 0,
+        "Prix" : 10
     },
 
     "EpeeAcier": 
     {
         "Nom" : "Épée Acier",
-        "Degat" : 2,
-        "Pénétration" : 1,
-        "Critique" : 5,
-        "DegatCritique" : 3,
+        "Degat" : 15,
+        "Pénétration" : 10,
+        "Vitesse" : 5,
+        "Critique" : 10,
+        "DegatCritique" : 40,
         "Effet Spécial" : "Na",
-        "Prix" : 50,
-        "CommandeAchat" : "?AchatArme @Pseudo EpeeAcier"
+        "ChanceEffet" : 0,
+        "Prix" : 50
+    },
+    
+    "EpeeArgent": 
+    {
+        "Nom" : "Épée en argent",
+        "Degat" : 20,
+        "Pénétration" : 15,
+        "Vitesse" : 10,
+        "Critique" : 15,
+        "DegatCritique" : 45,
+        "Effet Spécial" : "Na",
+        "ChanceEffet" : 0,
+        "Prix" : 50
+    },
+
+    "EpeeLetal": 
+    {
+        "Nom" : "Épée létal",
+        "Degat" : 15,
+        "Pénétration" : 15,
+        "Vitesse" : 10,
+        "Critique" : 30,
+        "DegatCritique" : 110,
+        "Effet Spécial" : "Na",
+        "ChanceEffet" : 0,
+        "Prix" : 50
+    },
+
+    "EpeeHero": 
+    {
+        "Nom" : "Épée des héros",
+        "Degat" : 20,
+        "Pénétration" : 15,
+        "Vitesse" : 10,
+        "Critique" : 15,
+        "DegatCritique" : 75,
+        "Effet Spécial" : "Vous avez une chance de ressentir la célérité des anciens héros déchu et d'attaquer deux fois avant votre adversaire.",
+        "ChanceEffet" : 10,
+        "Prix" : 50
+    },
+
+    "LanceFer": 
+    {
+        "Nom" : "Lance en fer",
+        "Degat" : 5,
+        "Pénétration" : 10,
+        "Vitesse" : 5,
+        "Critique" : 0,
+        "DegatCritique" : 0,
+        "Effet Spécial" : "Na",
+        "ChanceEffet" : 0,
+        "Prix" : 50
+    },
+
+    "LanceAcier": 
+    {
+        "Nom" : "Lance en acier",
+        "Degat" : 10,
+        "Pénétration" : 15,
+        "Vitesse" : 15,
+        "Critique" : 5,
+        "DegatCritique" : 35,
+        "Effet Spécial" : "Na",
+        "ChanceEffet" : 0,
+        "Prix" : 50
+    },
+
+    "LanceArgent": 
+    {
+        "Nom" : "Lance en argent",
+        "Degat" : 15,
+        "Pénétration" : 20,
+        "Vitesse" : 15,
+        "Critique" : 10,
+        "DegatCritique" : 40,
+        "Effet Spécial" : "Na",
+        "ChanceEffet" : 0,
+        "Prix" : 50
+    },
+
+    "LanceLetale": 
+    {
+        "Nom" : "Lance letale",
+        "Degat" : 15,
+        "Pénétration" : 20,
+        "Vitesse" : 20,
+        "Critique" : 30,
+        "DegatCritique" : 100,
+        "Effet Spécial" : "Na",
+        "ChanceEffet" : 0,
+        "Prix" : 50
+    },
+
+    "LanceHero": 
+    {
+        "Nom" : "Lance des héros",
+        "Degat" : 155,
+        "Pénétration" : 20,
+        "Vitesse" : 15,
+        "Critique" : 10,
+        "DegatCritique" : 75,
+        "Effet Spécial" : "Vous avez une chance de ressentir la célérité des anciens héros déchu et d'attaquer deux fois avant votre adversaire.",
+        "ChanceEffet" : 15,
+        "Prix" : 50
+    },
+
+    "HacheFer": 
+    {
+        "Nom" : "Hache en fer",
+        "Degat" : 5,
+        "Pénétration" : 0,
+        "Vitesse" : 0,
+        "Critique" : 10,
+        "DegatCritique" : 35,
+        "Effet Spécial" : "Na",
+        "ChanceEffet" : 0,
+        "Prix" : 50
+    },
+
+    "HacheAcier": 
+    {
+        "Nom" : "Hache en acier",
+        "Degat" : 10,
+        "Pénétration" : 5,
+        "Vitesse" : 5,
+        "Critique" : 15,
+        "DegatCritique" : 45,
+        "Effet Spécial" : "Na",
+        "ChanceEffet" : 0,
+        "Prix" : 50
     },
 
     "PetitBatonMagique": 
@@ -40,9 +173,11 @@
         "Nom" : "Petit Baton Magique",
         "Degat" : 10,
         "Pénétration" : 5,
+        "Vitesse" : 0,
         "Critique" : 5,
         "DegatCritique" : 10,
         "Effet Spécial" : "Na",
+        "ChanceEffet" : 0,
         "Prix" : 10,
         "CommandeAchat" : "?AchatArme @Pseudo PetitBatonMagique"
     },
@@ -52,9 +187,11 @@
         "Nom" : "Petite Dague en fer",
         "Degat" : 10,
         "Pénétration" : 15,
+        "Vitesse" : 0,
         "Critique" : 15,
         "DegatCritique" : 20,
         "Effet Spécial" : "Na",
+        "ChanceEffet" : 0,
         "Prix" : 10,
         "CommandeAchat" : "?AchatArme @Pseudo PetiteDagueFer"
     },
@@ -63,9 +200,11 @@
         "Nom" : "Petite Griffe",
         "Degat" : 10,
         "Pénétration" : 20,
+        "Vitesse" : 0,
         "Critique" : 20,
         "DegatCritique" : 30,
         "Effet Spécial" : "Na",
+        "ChanceEffet" : 0,
         "Prix" : 0,
         "CommandeAchat" : ""
     },
@@ -75,9 +214,11 @@
         "Nom" : "Petit Croc",
         "Degat" : 20,
         "Pénétration" : 35,
+        "Vitesse" : 0,
         "Critique" : 5,
         "DegatCritique" : 10,
         "Effet Spécial" : "Na",
+        "ChanceEffet" : 0,
         "Prix" : 0,
         "CommandeAchat" : ""
     }
