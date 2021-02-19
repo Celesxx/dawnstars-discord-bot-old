@@ -16,6 +16,7 @@
     
     "Mage" :
     {
+        "Nom" : "Mage",
         "HpBonus" : 5,
         "ManaBonus" : 10,
         "VitesseBonus" : 5,
@@ -30,6 +31,7 @@
 
     "Voleur" :
     {
+        "Nom" : "Voleur",
         "HpBonus" : 8,
         "ManaBonus" : 6,
         "VitesseBonus" : 10,
@@ -39,6 +41,21 @@
         "DegatMin" : 20,
         "DegatMax" : 40,
         "CritiqueBonus" : 5,
+        "Skill" : {} 
+    },
+
+    "Beastman" :
+    {
+        "Nom" : "Beastman initié",
+        "HpBonus" : 15,
+        "ManaBonus" : 0,
+        "VitesseBonus" : 10,
+        "ResistancePhysiqueBonus" : 10,
+        "ResistanceMagiqueBonus" : 2,
+        "ChanceBonus" : 0.5,
+        "DegatMin" : 25,
+        "DegatMax" : 45,
+        "CritiqueBonus" : 0,
         "Skill" : {} 
     }
 

@@ -15,7 +15,7 @@
             "ChanceBonus": 1,
             "DegatMin": 20,
             "DegatMax": 40,
-            "CritiqueBonus": 2,
+            "CritiqueBonus": 5,
             "Skill": {}
         },
         "Hp": 15000,
@@ -30,7 +30,7 @@
             "Slot1": {
                 "Nom": "Épée de fer",
                 "Degat": 20,
-                "Pénétration": 1.2,
+                "Pénétration": 10,
                 "Critique": 50,
                 "DegatCritique": 10,
                 "Effet Spécial": "Na",
@@ -50,7 +50,19 @@
         "imageProfil": "http://www.dailymars.net/wp-content/uploads/2015/05/seraph_of_the_end.jpg",
         "Description": "ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ",
         "Race": "Beastman",
-        "Classe": {},
+        "Classe": {
+            "Nom": "Guerrier",
+            "HpBonus": 10,
+            "ManaBonus": 5,
+            "VitesseBonus": 8,
+            "ResistancePhysiqueBonus": 5,
+            "ResistanceMagiqueBonus": 2,
+            "ChanceBonus": 1,
+            "DegatMin": 20,
+            "DegatMax": 40,
+            "CritiqueBonus": 5,
+            "Skill": {}
+        },
         "Hp": 245,
         "HpMax": 245,
         "Mana": 0,
@@ -60,8 +72,71 @@
         "ResistanceMagique": 7,
         "Chance": 5,
         "Arme": {
-            "Slot1": {},
+            "Slot1": {
+                "Nom": "Épée de fer",
+                "Degat": 20,
+                "Pénétration": 20,
+                "Critique": 50,
+                "DegatCritique": 10,
+                "Effet Spécial": "Na",
+                "Prix": 10,
+                "CommandeAchat": "?AchatArme @Pseudo 1"
+            },
             "Slot2": {}
+        },
+        "Armure": {},
+        "Skill": {},
+        "Magie": {},
+        "Inventaire": {}
+    },
+    "<@!251821125124751371>": {
+        "userId": "<@!251821125124751371>",
+        "Nom": "Chevalier noir",
+        "imageProfil": "https://cdn.discordapp.com/attachments/726571315418628133/811026741454962708/Caballero_Negro.png",
+        "Description": "blabla",
+        "Race": "Beastman",
+        "Classe": {
+            "Nom": "Beastman initié",
+            "HpBonus": 15,
+            "ManaBonus": 0,
+            "VitesseBonus": 10,
+            "ResistancePhysiqueBonus": 10,
+            "ResistanceMagiqueBonus": 2,
+            "ChanceBonus": 0.5,
+            "DegatMin": 25,
+            "DegatMax": 45,
+            "CritiqueBonus": 0,
+            "Skill": {}
+        },
+        "Hp": 242,
+        "HpMax": 242,
+        "Mana": 0,
+        "ManaMax": 0,
+        "Vitesse": 7,
+        "ResistancePhysique": 15,
+        "ResistanceMagique": 4,
+        "Chance": 7,
+        "Arme": {
+            "Slot1": {
+                "Nom": "Petite Griffe",
+                "Degat": 10,
+                "Pénétration": 20,
+                "Critique": 20,
+                "DegatCritique": 30,
+                "Effet Spécial": "Na",
+                "Prix": 0,
+                "CommandeAchat": ""
+            },
+            "Slot2": {
+                "Nom": "Petit Croc",
+                "Degat": 20,
+                "Pénétration": 35,
+                "Critique": 5,
+                "DegatCritique": 10,
+                "Effet Spécial": "Na",
+                "Prix": 0,
+                "CommandeAchat": ""
+            }
         },
         "Armure": {},
         "Skill": {},
