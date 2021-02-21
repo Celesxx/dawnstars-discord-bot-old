@@ -148,9 +148,6 @@ function SystemeCombat()
                                           if(Participant[i].fullUserId.Arme.Slot1.Nom != "") 
                                           {
                                             Degat = Math.floor(Math.random() * (Participant[i].fullUserId.Classe.DegatMax - Participant[i].fullUserId.Classe.DegatMin + 1)  + Participant[i].fullUserId.Classe.DegatMin);
-                                            console.log(`Degat classe : ${Degat}`)
-                                            console.log(`Degat Arme : ${Participant[i].fullUserId.Arme.Slot1.Degat / 100 }`)
-                                            console.log(`Degat Critique : ${(Participant[i].fullUserId.Arme.Slot1.Degat + Participant[i].fullUserId.Arme.Slot1.DegatCritique)/100}`)
                                             if(roll <= Participant[i].fullUserId.Arme.Slot1.Critique + Participant[i].fullUserId.Classe.CritiqueBonus) Degat += Degat * ((Participant[i].fullUserId.Arme.Slot1.Degat + Participant[i].fullUserId.Arme.Slot1.DegatCritique)/100)
                                             else Degat += (Degat * (Participant[i].fullUserId.Arme.Slot1.Degat /100 ))
                                             console.log(Degat)
