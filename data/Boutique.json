@@ -1,0 +1,12 @@
+{
+    "BoutiqueRoyaumeHumain" : 
+    {
+        "Nom" : "Boutique du Royaume",
+        "Description" : "Bienvenue dans la boutique",
+        "Gold" : 50000,
+        "Achat" :
+        {
+            "Arme" : ""
+        }
+    }
+}

@@ -77,8 +77,6 @@ function SystemeCombat()
                   }
                   else if(Adversaire.Nom == Participant[i].name && tour >= 1)
                   {
-                    console.log("################# ArmeEmbed #########################")
-                    console.log(armeEmbed.fields)
                     for(const array of Array.from(armeEmbed.fields)) 
                     {
                       if(array.name == EmojisBattleTemp[1]) array.value = Adversaire.Arme.Slot1.Nom
@@ -223,9 +221,6 @@ function SystemeCombat()
         {
           // setTimeout(() => 
           // {
-            console.log("ici reaction test monstre")
-            console.log(reaction)
-            console.log(reaction.user)
             rollCritique = Math.floor(Math.random() * (100 - 0 + 1)  + 0);
             let Degat = 0;
             do cible = Math.floor(Math.random()*Participant.length)

@@ -1,0 +1,23 @@
+{
+    "PetitePotionSoin" :
+    {
+        "Nom" : "Petite potion de soin",
+        "Type" : "soin",
+        "Bonus" : 10,
+        "Ingredient" : 
+            [
+                {
+                    "Nom" : "Petit Champignon Rouge",
+                    "Id" : "PetitChampignonRouge",
+                    "Nombre" : 3
+                },
+                {
+                    "Nom" : "Coeur de loup sauvage",
+                    "Id" : "CoeurLoupSauvage",
+                    "Nombre" : 2
+                }
+            ],
+        "Decription" : "Na",
+        "Prix" : 20
+    }
+}
