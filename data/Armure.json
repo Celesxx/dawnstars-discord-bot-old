@@ -2,11 +2,106 @@
     "ArmureCuir" : 
     {
         "Nom" : "Armure en cuir",
-        "Hp" : 1,
+        "Description" : "Na",
+        "Hp" : 5,
+        "vitesse" : 0,
         "Protection" : 10,
-        "ProtectionMagique" : 0,
+        "ProtectionMagique" : 10,
+        "EffetSpecial" : "Na",
+        "Prix" : 10,
+        "AchatArmure" : "Na"
+    },
+
+    "ArmureFer" : 
+    {
+        "Nom" : "Armure en fer",
+        "Description" : "Na",
+        "Hp" : 10,
+        "vitesse" : -3,
+        "Protection" : 20,
+        "ProtectionMagique" : 15,
+        "EffetSpecial" : "Na",
+        "Prix" : 10,
+        "AchatArmure" : "Na"
+    },
+
+    "ArmureAcier" : 
+    {
+        "Nom" : "Armure en acier",
+        "Description" : "Na",
+        "Hp" : 15,
+        "vitesse" : -5,
+        "Protection" : 30,
+        "ProtectionMagique" : 20,
+        "EffetSpecial" : "Na",
+        "Prix" : 10,
+        "AchatArmure" : "Na"
+    },
+
+    "ArmureArgent" : 
+    {
+        "Nom" : "Armure en argent",
+        "Description" : "Na",
+        "Hp" : 20,
+        "vitesse" : -10,
+        "Protection" : 40,
+        "ProtectionMagique" : 25,
+        "EffetSpecial" : "Na",
+        "Prix" : 10,
+        "AchatArmure" : "Na"
+    },
+
+    "CuirasseCuir" : 
+    {
+        "Nom" : "Cuirasse en cuir",
+        "Description" : "Na",
+        "Hp" : 10,
+        "vitesse" : -5,
+        "Protection" : 10,
+        "ProtectionMagique" : 5,
+        "EffetSpecial" : "Na",
+        "Prix" : 10,
+        "AchatArmure" : "Na"
+    },
+
+    "CuirasseFer" : 
+    {
+        "Nom" : "Cuirasse en fer",
+        "Description" : "Na",
+        "Hp" : 15,
+        "vitesse" : -10,
+        "Protection" : 25,
+        "ProtectionMagique" : 10,
+        "EffetSpecial" : "Na",
+        "Prix" : 10,
+        "AchatArmure" : "Na"
+    },
+
+    "CuirasseAcier" : 
+    {
+        "Nom" : "Cuirasse en acier",
+        "Description" : "Na",
+        "Hp" : 20,
+        "vitesse" : -20,
+        "Protection" : 45,
+        "ProtectionMagique" : 15,
+        "EffetSpecial" : "Na",
+        "Prix" : 10,
+        "AchatArmure" : "Na"
+    },
+
+    "CuirasseArgent" : 
+    {
+        "Nom" : "Armure en cuir",
+        "Description" : "Na",
+        "Hp" : 2,
+        "vitesse" : 0,
+        "Protection" : 10,
+        "ProtectionMagique" : 10,
         "EffetSpecial" : "Na",
         "Prix" : 10,
         "AchatArmure" : "Na"
     }
+
+
 }

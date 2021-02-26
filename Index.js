@@ -7,6 +7,8 @@ const bddArme = require("./data/Arme.json");
 const bddArmure = require("./data/Armure.json");
 const bddClasse = require("./data/Classe.json");
 const bddLog = require("./data/Log.json");
+const bddPotion = require("./data/Potion.json");
+const bddIngredient = require("./data/Ingredient.json");
 var _ = require('underscore');
 var fs = require("fs");
 var vm = require('vm');
@@ -73,13 +75,70 @@ client.on("message",message =>
     eval(fs.readFileSync(__dirname + '/interface/CommandCombat.js')+'');
     eval(fs.readFileSync(__dirname + '/interface/Economie.js')+'');
     
+    
+    if(message.content == prefix + "test")
+    {
+        try
+        {
+            const text = "Bienvenue il est temps de commencer !"
+            let textFinal = "B"
+            // console.log(`Taille : ${text.length}`)
+            // console.log(`test du text slice : ${text.slice}`)
+            let embed = new Discord.RichEmbed()
+                .setColor("#00FF00")
+                .setAuthor("test dynamique")
+                .setDescription("test")
+                .addField("Test","a")
+            
+                // console.log(embed)
+                // console.log(`la taille de l'array est de ${Object.keys(Array.from(embed.fields)).length}`)
+                message.channel.send(embed).then(async message =>
+                    {
+                function edit()
+                {
+                    message.channel.fetchMessages({around: message.id, limit: 1})
+                    .then(msg => {
+                        const fetchedMsg = msg.first();
+                        fetchedMsg.edit(embed);
+                    });
+                }
+            let count = 0
+            for(let i = 1; i < text.length; i++)
+            {
+                (function(i){ 
+
+                    setInterval(function() 
+                    {
+                        for(const array of Array.from(embed.fields)) 
+                    {
+                            // console.log(`la taille actuelle du slice ${text.slice(i,i+1)}`)
+                            if(array.name == "Test") 
+                            {
+                                array.value = textFinal
+                            }
+                    }
+                    console.log(count++)
+                    textFinal += text.slice(i,i+1)
+                    edit()
+                    }, 400);
+           
+                })(i);
+            }
+            })
+        }catch(error)
+        {
+            console.log(error)
+        }
+    }
+
     logCount += 1;
+
     // if(message.content == "?nick")
     // {
     //     // if (!message.guild.me.hasPermission('MANAGE_NICKNAMES')) return message.channel.send('I don\'t have permission to change your nickname!');
     //     console.log(message.member)
     //     message.member.setNickname(message.content.replace('changeNick ', ''));
-
+    
     //         // message.reply("pseudo changé")
     // }
     

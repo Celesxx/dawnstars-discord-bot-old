@@ -77,8 +77,6 @@ function SystemeCombat()
                   }
                   else if(Adversaire.Nom == Participant[i].name && tour >= 1)
                   {
-                    console.log("################# ArmeEmbed #########################")
-                    console.log(armeEmbed.fields)
                     for(const array of Array.from(armeEmbed.fields)) 
                     {
                       if(array.name == EmojisBattleTemp[1]) array.value = Adversaire.Arme.Slot1.Nom
@@ -148,9 +146,6 @@ function SystemeCombat()
                                           if(Participant[i].fullUserId.Arme.Slot1.Nom != "") 
                                           {
                                             Degat = Math.floor(Math.random() * (Participant[i].fullUserId.Classe.DegatMax - Participant[i].fullUserId.Classe.DegatMin + 1)  + Participant[i].fullUserId.Classe.DegatMin);
-                                            console.log(`Degat classe : ${Degat}`)
-                                            console.log(`Degat Arme : ${Participant[i].fullUserId.Arme.Slot1.Degat / 100 }`)
-                                            console.log(`Degat Critique : ${(Participant[i].fullUserId.Arme.Slot1.Degat + Participant[i].fullUserId.Arme.Slot1.DegatCritique)/100}`)
                                             if(roll <= Participant[i].fullUserId.Arme.Slot1.Critique + Participant[i].fullUserId.Classe.CritiqueBonus) Degat += Degat * ((Participant[i].fullUserId.Arme.Slot1.Degat + Participant[i].fullUserId.Arme.Slot1.DegatCritique)/100)
                                             else Degat += (Degat * (Participant[i].fullUserId.Arme.Slot1.Degat /100 ))
                                             console.log(Degat)
@@ -226,9 +221,6 @@ function SystemeCombat()
         {
           // setTimeout(() => 
           // {
-            console.log("ici reaction test monstre")
-            console.log(reaction)
-            console.log(reaction.user)
             rollCritique = Math.floor(Math.random() * (100 - 0 + 1)  + 0);
             let Degat = 0;
             do cible = Math.floor(Math.random()*Participant.length)

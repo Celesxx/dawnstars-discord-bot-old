@@ -142,5 +142,41 @@
         "Skill": {},
         "Magie": {},
         "Inventaire": {}
+    },
+    "<@!213845376384499713>": {
+        "userId": "<@!213845376384499713>",
+        "Nom": "Nan",
+        "imageProfil": "Nan",
+        "Description": "Nan",
+        "Race": "Démon",
+        "Classe": {
+            "Nom": "Mage",
+            "HpBonus": 5,
+            "ManaBonus": 10,
+            "VitesseBonus": 5,
+            "ResistancePhysiqueBonus": 2,
+            "ResistanceMagiqueBonus": 5,
+            "ChanceBonus": 1,
+            "DegatMin": 10,
+            "DegatMax": 25,
+            "CritiqueBonus": 0,
+            "Magie": {}
+        },
+        "Hp": 172,
+        "HpMax": 172,
+        "Mana": 165,
+        "ManaMax": 165,
+        "Vitesse": 14,
+        "ResistancePhysique": 9,
+        "ResistanceMagique": 14,
+        "Chance": 6,
+        "Arme": {
+            "Slot1": {},
+            "Slot2": {}
+        },
+        "Armure": {},
+        "Skill": {},
+        "Magie": {},
+        "Inventaire": {}
     }
 }
