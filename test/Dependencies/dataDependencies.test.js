@@ -24,10 +24,6 @@ test('Job.json exist', () => {
     expect(fs.existsSync('./data/Job.json')).toBe(true);
 });
 
-test('Log.json exist', () => {
-    expect(fs.existsSync('./data/Log.json')).toBe(true);
-});
-
 test('Minage.json exist', () => {
     expect(fs.existsSync('./data/Minage.json')).toBe(true);
 });
