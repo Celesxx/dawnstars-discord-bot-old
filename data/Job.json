@@ -1,0 +1,10 @@
+{
+    "Mineur" :
+    {
+        "Nom" : "Mineur",
+        "Description" : "Na",
+        "Lv" : 0,
+        "Reussite" : 30,
+        "BonusLv" : 5 
+    }
+}

@@ -1,0 +1,66 @@
+{
+    "Minage1": 
+    {
+        "Description" : "Vous êtes au premier niveau de la grotte, la lumière du jour illumine toujours suffisament la grotte pour vous repérer facilement",
+        "Pierre":
+        {
+            "Nom" : "Pierre",
+            "Rare" : 15,
+            "EmojiId" : "814629084691955752"
+        },
+
+        "Fer" :
+        {
+            "Nom" : "Fer",
+            "Rare" : 5,
+            "EmojiId" : "814658411118723133"
+        },
+
+        "Acier" :
+        {
+            "Nom" : "Acier",
+            "Rare" : 3,
+            "EmojiId" : "814658354030444554"
+        },
+
+        "Malus" :
+        {
+            "Nom" : "Malus",
+            "Rare" : 2,
+            "EmojiId" : "814658455302045716"
+        }
+    },
+    
+
+    "Minage2": 
+    {
+        "Description" : "Vous êtes au second niveau de la grotte, la lumière du jour illumine toujours suffisament la grotte pour vous repérer facilement",
+        "Pierre":
+        {
+            "Nom" : "Pierre",
+            "Rare" : 15,
+            "EmojiId" : "814629084691955752"
+        },
+
+        "Fer" :
+        {
+            "Nom" : "Fer",
+            "Rare" : 5,
+            "EmojiId" : "814658411118723133"
+        },
+
+        "Acier" :
+        {
+            "Nom" : "Acier",
+            "Rare" : 3,
+            "EmojiId" : "814658354030444554"
+        },
+
+        "Malus" :
+        {
+            "Nom" : "Malus",
+            "Rare" : 2,
+            "EmojiId" : "814658455302045716"
+        }
+    }
+}

@@ -8,8 +8,9 @@ const bddArmure = require("./data/Armure.json");
 const bddClasse = require("./data/Classe.json");
 const bddLog = require("./data/Log.json");
 const bddPotion = require("./data/Potion.json");
-const bddIngredient = require("./data/Ingredient.json");
-var _ = require('underscore');
+const bddObjet = require("./data/Objet.json");
+const bddMinage = require("./data/Minage.json");
+var {_ , shuffle} = require('underscore');
 var fs = require("fs");
 var vm = require('vm');
 const { timeStamp } = require("console");
@@ -74,6 +75,8 @@ client.on("message",message =>
     eval(fs.readFileSync(__dirname + '/interface/InterfaceCombat.js')+'');
     eval(fs.readFileSync(__dirname + '/interface/CommandCombat.js')+'');
     eval(fs.readFileSync(__dirname + '/interface/Economie.js')+'');
+    eval(fs.readFileSync(__dirname + '/Job/FunctionJob.js')+'');
+    eval(fs.readFileSync(__dirname + '/Job/Job.js')+'');
     
     
     if(message.content == prefix + "test")
@@ -102,29 +105,24 @@ client.on("message",message =>
                         fetchedMsg.edit(embed);
                     });
                 }
-            let count = 0
+                
             for(let i = 1; i < text.length; i++)
             {
-                (function(i){ 
-
-                    setInterval(function() 
+                    setTimeout(() =>
                     {
                         for(const array of Array.from(embed.fields)) 
-                    {
-                            // console.log(`la taille actuelle du slice ${text.slice(i,i+1)}`)
-                            if(array.name == "Test") 
-                            {
-                                array.value = textFinal
-                            }
-                    }
-                    console.log(count++)
-                    textFinal += text.slice(i,i+1)
-                    edit()
-                    }, 400);
-           
-                })(i);
+                        {
+                                if(array.name == "Test") 
+                                {
+                                    array.value = textFinal
+                                }
+                        }
+                        textFinal += text.slice(i,i+1)
+                        edit()
+                    }, i*1500)
             }
-            })
+            
+        })
         }catch(error)
         {
             console.log(error)
