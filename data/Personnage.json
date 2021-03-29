@@ -42,6 +42,13 @@
         "Armure": {},
         "Skill": {},
         "Magie": {},
+        "Job" : {
+            "Nom" : "Mineur",
+            "Description" : "Na",
+            "Lv" : 0,
+            "Reussite" : 30,
+            "BonusLv" : 5 
+        },
         "Inventaire": {}
     },
     "<@!261908744667922443>": {

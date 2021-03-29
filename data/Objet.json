@@ -1,0 +1,35 @@
+{
+    "PetitChampignonRouge" :
+    {
+        "Nom" : "Petit champignon rouge",
+        "Description" : "Na",
+        "Prix" : 5
+    },
+
+    "Pierre" :
+    {
+        "Nom" : "Pierre",
+        "EmojiId" : "814629084691955752",
+        "Description" : "Na",
+        "Rare" : 15,
+        "Prix" : 0
+    },
+
+    "Fer" :
+    {
+        "Nom" : "Fer",
+        "EmojiId" : "814658411118723133",
+        "Description" : "Na",
+        "Rare" : 5,
+        "Prix" : 10
+    },
+
+    "Acier" :
+    {
+        "Nom" : "Acier",
+        "EmojiId" : "814658354030444554",
+        "Description" : "Na",
+        "Rare" : 3,
+        "Prix" : 20
+    }
+}

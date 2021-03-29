@@ -45,10 +45,13 @@ if(message.content.startsWith("?+bdd PersonnageCreation"))
                     Armure:{},
                     Skill:{},
                     Magie:{},
+                    Job:{},
                     Inventaire:{}
                 }
                 Savebdd()
             }
+
+            bdd[Personnage].Job = bddJob["Mineur"]
             if(Race == "Beastman") 
             {
                 bdd[PersonnageId].Classe = bddClasse["Beastman"]
