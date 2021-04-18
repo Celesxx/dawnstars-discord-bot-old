@@ -117,6 +117,7 @@ function CreationChart(Hp,Mana,Vitesse,ResistancePhysique,ResistanceMagique,Chan
     const line_chart = ChartJSImage().chart({
         "type": "radar",
         "data": {
+          "backgroundColor": "#F5DEB3",
           "labels": [
             "Hp",
             "Mana",
