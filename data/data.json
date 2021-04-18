@@ -1,0 +1,14 @@
+{
+    "ArmureCuir" : 
+    {
+        "Nom" : "Armure en cuir",
+        "Description" : "Na",
+        "Hp" : 5,
+        "vitesse" : 0,
+        "Protection" : 10,
+        "ProtectionMagique" : 10,
+        "EffetSpecial" : "Na",
+        "Prix" : 10,
+        "AchatArmure" : "Na"
+    }
+}

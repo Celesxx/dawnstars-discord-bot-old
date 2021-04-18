@@ -79,7 +79,6 @@ if(message.content.startsWith("?+bdd Name"))
         Name = message.content.slice(34)
         PersonnageId = bdd[PersonnageName]
         PersonnageId.Nom = Name
-        console.log(message.author.username)
         Savebdd()
         message.channel.send(`${PersonnageId.Nom}, ton nom a bien été rajouté !`)
     }catch(error) 
@@ -211,6 +210,7 @@ if(message.content.startsWith("?PersonnageStat"))
             if(PersonnageId.imageProfil == "Nan") message.channel.send("Erreur, vous avez oublié de remplir l'image de profil. (?+bdd ProfilImage @User URL)")
             if(PersonnageId.Description == "Nan") message.channel.send("Erreur, vous avez oublié de remplir la description. (?+bdd Description @User Description)")
 
+            CreationChart(PersonnageId.Hp,PersonnageId.Mana,PersonnageId.Vitesse,PersonnageId.ResistancePhysique,PersonnageId.ResistanceMagique,PersonnageId.Chance)
             let InfoPersonnage = new Discord.RichEmbed()
                 .setColor("#bf0000")
                 .setAuthor(PersonnageId.Nom)
@@ -225,8 +225,15 @@ if(message.content.startsWith("?PersonnageStat"))
                 .addField("⚔️ Arme slot 1 :", PersonnageId.Arme.Slot1.Nom,true)
                 .addField("🪓 Arme slot 2 :", PersonnageId.Arme.Slot2.Nom,true)
                 .addField("⚜️ Armure", PersonnageId.Armure.Nom ,true)
-                .setImage(PersonnageId.imageProfil)
+                .setImage(UrlChart)
+
+                let InfoPersonnages = new Discord.RichEmbed()
+                    .setColor("#bf0000")
+                    .setAuthor('\u200b')
+                    .setImage(PersonnageId.imageProfil)
+        
             message.channel.send(InfoPersonnage)
+            message.channel.send(InfoPersonnages)
         }
     }catch(error)
     {
