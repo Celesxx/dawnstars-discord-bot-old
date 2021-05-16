@@ -70,6 +70,7 @@ client.on("message",message =>
         }
         SavebddLog()
     }
+
     erreurLog()
     //Inclusion des fichier externe
     eval(fs.readFileSync(__dirname + '/personnage/Skill.js')+'');
