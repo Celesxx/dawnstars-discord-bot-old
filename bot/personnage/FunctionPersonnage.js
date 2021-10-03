@@ -111,3 +111,39 @@ function CreationStatPersonnageVampire()
         ResistanceMagique = Math.ceil(ResistanceMagique * 1.2)
     }
 }
+
+function CreationChart(Hp,Mana,Vitesse,ResistancePhysique,ResistanceMagique,Chance)
+{
+    const line_chart = ChartJSImage().chart({
+        "type": "radar",
+        "data": {
+          "backgroundColor": "#F5DEB3",
+          "labels": [
+            "Hp",
+            "Mana",
+            "Vitesse",
+            "ResistancePhysique",
+            "ResistanceMagique",
+            "Chance"
+          ],
+          "datasets": [
+            {
+              "label": "Statistiques",
+              "borderColor": "rgb(255,+99,+132)",
+              "backgroundColor": "rgba(255,+99,+132,+.5)",
+              "data": [Hp, Mana, Vitesse,ResistancePhysique, ResistanceMagique, Chance]
+            }
+          ]
+        },
+        "options": {
+          "title": {
+            "display": true
+          }
+        }
+      }) // Line chart
+      .backgroundColor('white')
+      .width(500) // 500px
+      .height(300); // 300pxj
+
+      UrlChart = line_chart.toURL()
+}

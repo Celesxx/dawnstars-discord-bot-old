@@ -2,8 +2,9 @@ if(message.content.startsWith(prefix + "Minage"))
 {
     try
     {
+        PersonnageId = bdd[message.content.slice(10,32)]
         const filter = (reaction,user) => ['✅', '❌'].includes(reaction.emoji.name) && message.member.id.includes(user.id);
-        let Niveau = message.content.slice(8)
+        let Niveau = message.content.slice(8,9)
         let ResultatMinage = []
         let Resultat = ""
         let gain = ""
@@ -45,9 +46,9 @@ if(message.content.startsWith(prefix + "Minage"))
             let i = 0;
             for await (let element of ResultatMinage)
             {
-                console.log(`Materiau : ${Materiau}`)
                 console.log(`element : ${element}`)
-                console.log(Materiau.includes("<:Fer:814658411118723133>"))
+                console.log(`element : "<:Fer:814658411118723133>`)
+                console.log(Materiau.includes(element))
                 if(Materiau.includes(element) && end === false)
                 {
                     console.log("test")
@@ -114,6 +115,7 @@ if(message.content.startsWith(prefix + "Minage"))
                 {
                     array.name = "Résultat"
                     array.value = `Vous avez finis de miner et vous avez recolté : ${gain}`
+                    
                 }
             }
             edit()

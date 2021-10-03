@@ -11,9 +11,13 @@ const bddPotion = require("./data/Potion.json");
 const bddObjet = require("./data/Objet.json");
 const bddMinage = require("./data/Minage.json");
 var {_ , shuffle} = require('underscore');
+const MongoClient = require('mongodb').MongoClient;
+const mongoose = require('mongoose');
 var fs = require("fs");
 var vm = require('vm');
 const { timeStamp } = require("console");
+var Chart = require('chart.js');
+const ChartJSImage = require('chart.js-image');
 var prefix = config.prefix;
 var prefixbdd = config.prefixbdd;
 var logExist = false
@@ -66,6 +70,7 @@ client.on("message",message =>
         }
         SavebddLog()
     }
+
     erreurLog()
     //Inclusion des fichier externe
     eval(fs.readFileSync(__dirname + '/personnage/Skill.js')+'');
@@ -83,50 +88,38 @@ client.on("message",message =>
     {
         try
         {
-            const text = "Bienvenue il est temps de commencer !"
-            let textFinal = "B"
-            // console.log(`Taille : ${text.length}`)
-            // console.log(`test du text slice : ${text.slice}`)
-            let embed = new Discord.RichEmbed()
-                .setColor("#00FF00")
-                .setAuthor("test dynamique")
-                .setDescription("test")
-                .addField("Test","a")
-            
-                // console.log(embed)
-                // console.log(`la taille de l'array est de ${Object.keys(Array.from(embed.fields)).length}`)
-                message.channel.send(embed).then(async message =>
-                    {
-                function edit()
-                {
-                    message.channel.fetchMessages({around: message.id, limit: 1})
-                    .then(msg => {
-                        const fetchedMsg = msg.first();
-                        fetchedMsg.edit(embed);
-                    });
-                }
-                
-            for(let i = 1; i < text.length; i++)
-            {
-                    setTimeout(() =>
-                    {
-                        for(const array of Array.from(embed.fields)) 
-                        {
-                                if(array.name == "Test") 
-                                {
-                                    array.value = textFinal
-                                }
-                        }
-                        textFinal += text.slice(i,i+1)
-                        edit()
-                    }, i*1500)
-            }
-            
-        })
+          const password = '%22PVKZH%25.'
+          console.log(password)
+          mongoose.connect(`mongodb+srv://Pleiade:${password}@cluster0.ycpr4.mongodb.net/RpgDiscord?authSource=admin`, {useNewUrlParser: true});
+          var db = mongoose.connection;
+           
+          db.on('error', console.error.bind(console, 'connection error:'));
+           
+          db.once('open', function() {
+              console.log("Connection Successful!");
+               
+              // define Schema
+              var BookSchema = mongoose.Schema({
+                name: String,
+                price: Number,
+                quantity: Number
+              });
+           
+              var Book = mongoose.model('Personnage', BookSchema);
+              
+              var book1 = new Book({ name: 'Introduction to Mongoose', price: 10, quantity: 25 });
+           
+              book1.save(function (err, book) {
+                if (err) return console.error(err);
+                console.log(book.name + " saved to bookstore collection.");
+              });
+               
+          });
+
         }catch(error)
         {
             console.log(error)
-        }
+        }        
     }
 
     logCount += 1;
